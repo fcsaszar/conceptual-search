@@ -1,0 +1,76 @@
+{
+  "schema_version": 1,
+  "run_id": "2026-08-14-gemma3-4b-full",
+  "analyzed_at_utc": "2026-08-14T21:39:51+00:00",
+  "sample": {
+    "slots": 75,
+    "unique_texts": 74,
+    "calls": 3510
+  },
+  "usage": {
+    "provider_attempts": 3565,
+    "provider_api_errors": 1,
+    "parse_errors_recorded_before_recovery": 68,
+    "prompt_tokens": 7618931,
+    "completion_tokens": 2137894,
+    "reported_cost_usd": 0.5947359499999993,
+    "providers": {
+      "DeepInfra": 3510
+    },
+    "models_returned": {
+      "google/gemma-3-4b-it": 3510
+    },
+    "parse_modes": {
+      "markdown_fence": 3283,
+      "explicit_winner_recovered_from_malformed_json": 222,
+      "normalized_project_winner": 5
+    }
+  },
+  "agreement": {
+    "spearman_all_unique_texts": 0.38405732701397693,
+    "spearman_originals": 0.9382385963427853,
+    "spearman_generated_unique_texts": 0.01657478105336842,
+    "spearman_global_final": 0.4245764719491604,
+    "spearman_polished": 0.1297297297297297,
+    "spearman_local_only": 0.8121658791518986,
+    "presentation_order_agreement": 0.513960113960114,
+    "presentation_order_pairs": 1755,
+    "presentation_order_original_agreement": 0.38620689655172413,
+    "presentation_order_original_pairs": 435,
+    "presentation_order_generated_agreement": 0.556060606060606,
+    "presentation_order_generated_pairs": 1320
+  },
+  "principal_findings": {
+    "polish_pairs": 15,
+    "polish_improved": 13,
+    "polish_median_delta_percentage_points": 5.000000000000004,
+    "global_final_median_win_rate": 0.8,
+    "polished_median_win_rate": 0.833333,
+    "polished_above_all_fixed_seeds": 15,
+    "best_polished_slot": "polished:g12-s10",
+    "best_polished_win_rate": 0.983333,
+    "best_polished_outranks_originals": 30,
+    "local_only_median_win_rate": 0.55,
+    "best_local_only_slot": "local-only:hply",
+    "best_local_only_win_rate": 0.733333,
+    "best_local_only_outranks_originals": 28,
+    "local_only_improved_over_seed": 15,
+    "local_only_median_delta_percentage_points": 16.609199999999998,
+    "fixed_seed_median_win_rate": 0.37931,
+    "fixed_seed_max_win_rate": 0.517241,
+    "clockchain_local_final_win_rate": 0.683333,
+    "paper_focal_polished_gemma_win_rate": 0.866667,
+    "paper_focal_polished_gemma_outranks_originals": 29,
+    "paper_focal_polished_deepseek_outranks_originals": 24,
+    "clockchain_gemma_outranks_originals": 26,
+    "clockchain_deepseek_outranks_originals": 28,
+    "hply_gemma_outranks_originals": 28,
+    "hply_deepseek_outranks_originals": 28,
+    "deepseek_polish_improved": 15,
+    "deepseek_polish_median_delta_percentage_points": 28.34,
+    "deepseek_global_final_median_win_rate": 0.3667,
+    "deepseek_polished_median_win_rate": 0.6333,
+    "deepseek_local_only_median_win_rate": 0.6833,
+    "deepseek_local_only_improved_over_seed": 15
+  }
+}

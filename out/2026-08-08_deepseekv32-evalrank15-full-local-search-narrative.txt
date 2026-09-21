@@ -1,0 +1,777 @@
+* Step 0: Initial state
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+
+* Step 1
+
+** Description (cell F2 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment to inform broader development.
+
+** Difference from step 0
+
+The new version adds a focused strategy for the initial beta launch, targeting a specific user segment (digital illustrators on a major social media platform) to guide development and marketing. This change introduces a more concrete and scoped approach to the product rollout, using this focus as a method to manage risk and accelerate learning. The updates are integrated into the "Target Users & Use Cases," "Roadmap," and "Risks" sections, while all other core descriptions remain unchanged.
+
+* Step 2
+
+** Description (cell D3 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment and to conduct the proposed small-scale test.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development.
+
+** Difference from step 1
+
+The key change is the addition of a small-scale, planned test with digital illustrators from the target platform to gather workflow feedback before the beta launch. This is integrated into the Roadmap, Use of Funds, and Post-Launch Plans, making the development strategy more user-centric and iterative. The overall content and strategy remain otherwise identical.
+
+* Step 3
+
+** Description (cell D4 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, and to execute the proposed public demonstration.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development.
+
+** Difference from step 2
+
+The new version adds a proposed public demonstration of the technology's verification capability during the crowdfunding campaign to build trust. This is the only substantive change; the rest of the document, including the strategy of focusing on digital illustrators and conducting a small-scale test, remains identical.
+
+* Step 4
+
+** Description (cell D5 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, and to execute the proposed public demonstration.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 3
+
+The new version introduces a key section on **Revenue Model and Sustainability**, proposing a potential freemium pricing structure to address long-term viability. This addition shifts the emphasis from purely a technical project to a more sustainable business proposition. The post-launch plans are also updated to include using feedback to inform this pricing model.
+
+* Step 5
+
+** Description (cell D6 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, and to execute the proposed public demonstration.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 4
+
+The only change is in the "Revenue Model and Sustainability" section, where the new version adds a specific, hypothetical pricing example: "5 free verifications per month, then $5 per month for unlimited." This makes the proposed freemium model more tangible and concrete for potential backers.
+
+* Step 6
+
+** Description (cell C7 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, and to execute the proposed public demonstration.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 5
+
+The key change is the addition of a concrete, hypothetical use case within the Solution section, making the abstract value proposition tangible. The new version illustrates exactly how a digital illustrator would use the tool to prove originality, enhancing clarity and relatability. All other sections remain identical in content and emphasis.
+
+* Step 7
+
+** Description (cell D8 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 6
+
+The new version adds a specific proposal to include a mock-up or wireframe screenshot of the beta interface tailored for digital illustrators in the project description. This addition is reflected in the Roadmap and the Use of Funds sections, where creating this visual aid is now listed as a planned activity. The change emphasizes a strategy to make the solution more tangible and build trust by visually demonstrating the intended user experience.
+
+* Step 8
+
+** Description (cell G9 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta, planned for the month following successful funding. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust, planned for the third week of the campaign. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 7
+
+The key changes are the addition of specific, time-bound commitments to the roadmap. The new version schedules the small-scale user test for "the month following successful funding" and plans the public technology demonstration for "the third week of the campaign," making the plan more concrete and actionable for potential backers.
+
+* Step 9
+
+** Description (cell E10 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta, planned for the month following successful funding. This test is proposed to involve a clear, simple metric of 5 test users to show structured planning and manageability. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust, planned for the third week of the campaign. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 8
+
+The new version adds specific, concrete details to the roadmap to enhance credibility and manageability. It explicitly defines the small-scale test as involving "5 test users" and clarifies that the public demonstration will use "a sample file." These additions make the plan more tangible and demonstrate structured execution.
+
+* Step 10
+
+** Description (cell D11 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta, planned for the month following successful funding. This test is proposed to involve a clear, simple metric of 5 test users to show structured planning and manageability. A proposed, clear metric for the success of this test is the percentage of test users who successfully completed the fingerprinting workflow without assistance. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust, planned for the third week of the campaign. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Support & Post-Launch Plans
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 9
+
+The new version adds a specific, measurable success metric for the proposed small-scale user test: "the percentage of test users who successfully completed the fingerprinting workflow without assistance." This is the only change, making the test plan more concrete and outcome-focused.
+
+* Step 11
+
+** Description (cell D12 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta, planned for the month following successful funding. This test is proposed to involve a clear, simple metric of 5 test users to show structured planning and manageability. A proposed, clear metric for the success of this test is the percentage of test users who successfully completed the fingerprinting workflow without assistance. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust, planned for the third week of the campaign. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact. To enhance credibility and transparency, the team proposes to anchor fingerprints to a specific public ledger technology, such as a public timestamping service like OpenTimestamps or a specific, energy-efficient blockchain.
+
+## Support & Post-Launch Plans
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 10
+
+The key change is the addition of a specific technical detail in the "Technical Details" section. The new version proposes using a named public ledger technology (e.g., OpenTimestamps or a specific energy-efficient blockchain) to anchor the fingerprints, enhancing credibility and transparency. All other sections remain identical.
+
+* Step 12
+
+** Description (cell F13 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+The digital landscape is saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. The central question is how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. This is positioned as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To make the value proposition more tangible, consider a hypothetical example: a digital illustrator could use the tool to generate a fingerprint of their new artwork file before posting it on the named social platform. Later, if a copy appears elsewhere, the illustrator can publicly prove they had the original file first by showing the time-stamped ledger entry matching their file's fingerprint, without ever revealing the full file.
+
+## Key Features & Capabilities
+- File fingerprinting: produces a unique hash of a file for proof of originality.
+- Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+- Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+- Lightweight implementation: designed to be efficient and resource-conscious.
+- Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. To focus the initial beta launch, the team proposes concentrating development and marketing efforts on a specific, narrow user segment. The proposed initial target is digital illustrators who primarily share their work on a single, major social media platform.
+
+## Development Status
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. As part of this plan, the team proposes to tailor the initial beta interface and user experience specifically for the needs and workflows of the proposed target segment of digital illustrators. To inform this tailoring, the team proposes a small-scale, planned test with a handful of digital illustrators from the target platform to gather initial workflow feedback before the beta, planned for the month following successful funding. This test is proposed to involve a clear, simple metric of 5 test users to show structured planning and manageability. A proposed, clear metric for the success of this test is the percentage of test users who successfully completed the fingerprinting workflow without assistance, with a proposed target of 80% of the 5 test users completing the workflow unassisted. Furthermore, the team proposes a planned, small-scale public demonstration of the technology's verification capability using a sample file to be conducted during the crowdfunding campaign to build trust, planned for the third week of the campaign. To help visualize the solution for this segment, the team proposes to include a mock-up or wireframe screenshot of the proposed beta interface tailored for digital illustrators in the project description.
+
+## Revenue Model and Sustainability
+To address a key backer question about long-term viability, the team is considering a proposed, simple pricing structure. This could take the form of a freemium model, for example, offering a limited number of free verifications per month with a subscription option for higher-volume users. As a hypothetical example to make this tangible, a proposed pricing tier could be '5 free verifications per month, then $5 per month for unlimited.' The final model would be developed based on feedback from the initial beta and the proposed small-scale test.
+
+## Why Crowdfunding / Use of Funds
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access. This includes proposed work to adapt the initial product for the specific segment, to conduct the proposed small-scale test, to execute the proposed public demonstration, and to create the proposed interface mock-up or wireframe.
+
+## Risks & Challenges
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly. Focusing on a narrow initial segment is a proposed strategy to manage scope and accelerate learning.
+
+## Team & Partnerships
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact. To enhance credibility and transparency, the team proposes to anchor fingerprints to a specific public ledger technology, such as a public timestamping service like OpenTimestamps or a specific, energy-efficient blockchain.
+
+## Support & Post-Launch Plans
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets. The plan is to gather feedback from the initial, focused user segment, informed by the proposed small-scale test, to inform broader development and the proposed pricing model.
+
+** Difference from step 11
+
+The key change is the addition of a specific success metric for the proposed small-scale user test. The new version now states a target of 80% of the 5 test users successfully completing the fingerprinting workflow without assistance, whereas the old version only proposed the metric without a defined target.

@@ -1,0 +1,907 @@
+* Step 0: Initial ranking
+
+- hply (win rate 79%, cell T2 in CSV)
+- clockchain (win rate 79%, cell S2 in CSV)
+- lockguard (win rate 71%, cell V2 in CSV)
+- angelry (win rate 71%, cell U2 in CSV)
+- genaix (win rate 64%, cell X2 in CSV)
+- bugout-battery (win rate 61%, cell Y2 in CSV)
+- hooper (win rate 61%, cell AA2 in CSV)
+- sale-finder (win rate 61%, cell W2 in CSV)
+- rent-a-bee (win rate 61%, cell Z2 in CSV)
+- remotion-ai (win rate 50%, cell AB2 in CSV)
+- viaia (win rate 36%, cell AC2 in CSV)
+- voyagx (win rate 29%, cell AE2 in CSV)
+- lumivisor (win rate 21%, cell AD2 in CSV)
+- my-story (win rate 4%, cell AG2 in CSV)
+- kebo (win rate 4%, cell AF2 in CSV)
+
+** Best firm: hply (cell T2 in CSV)
+
+## One-Sentence Summary
+
+A donation app and website that connects people with vetted nonprofits, makes giving fast and secure, and provides clear updates showing the impact of each contribution.
+
+## Problem
+
+The creators say many people want to help but hesitate because it's hard to know which organizations are trustworthy, where the money goes, and whether it truly helps; the process often feels long and ends in unwanted emails and data sharing, which creates friction and reduces support for worthy causes.
+
+## Solution / Product Overview
+
+The product is a donation platform designed to reduce doubt and complexity. It connects users to a curated set of organizations that have been screened for transparency, accountability, and results, enables quick, secure donations, and delivers follow-up updates so donors can see how their generosity made a difference.
+
+## Key Features & Capabilities
+
+-   **Vetted organizations:** Every listed nonprofit is reviewed for transparency, accountability, and proven outcomes.
+
+-   **Smart discovery:** Tools help users find causes aligned with their values and interests.
+
+-   **Simple, secure giving:** A streamlined flow aims to remove "endless forms" and confusing steps, enabling donations in under a minute.
+
+-   **Real-time impact updates:** Donors receive updates from supported organizations to understand the effects of their gifts.
+
+-   **Privacy protections:** The team commits to no spam, no data selling, and no pressure, limiting communications to gratitude and impact updates selected by the user.
+
+-   **Transparent fees:** The platform states a flat 1% fee, with no hidden charges.
+
+-   **Mobile and web access:** The experience is available via a mobile app and a web platform.
+
+## Target Users & Use Cases
+
+The product is pitched to both new donors and people who already give regularly. Primary scenarios include discovering trusted organizations (from large, global efforts to local, community causes), making quick donations with confidence, and staying connected through ongoing impact updates.
+
+## Development Status
+
+According to the page, the platform is built, nonprofits are already vetted, and the mission and product scope are defined; the creators present it as ready to expand to more users.
+
+## Roadmap & Delivery Plan
+
+Planned work includes launching the web and mobile platform at scale, expanding outreach to additional nonprofits and prospective donors, and building tools that deliver more meaningful impact insights to users. Specific dates are not listed.
+
+## Why Crowdfunding / Use of Funds
+
+Funds are intended for launch activities, nonprofit and user outreach, and development of impact-insight tools that enhance donor feedback after giving.
+
+## Risks & Challenges
+
+The team identifies technical and operational challenges related to scaling for a broad user and cause base. They state prior startup and product-deployment experience, say the platform is built for flexibility and scalability, and commit to continued transparency as they grow.
+
+## Team & Partnerships
+
+The project is led by the founders, who cite experience leading people operations at a technology company that later went public, with a mission background in safety and impact. The platform features a mix of large international organizations and local community groups as partners, all described generically and subject to vetting.
+
+* Step 1
+
+** Ranking
+
+- clockchain.M1.5 (win rate 100%, cell AB3 in CSV)
+- clockchain (win rate 86%, cell T3 in CSV)
+- hply.M1.4 (win rate 75%, cell AA3 in CSV)
+- angelry.M1.2 (win rate 57%, cell Y3 in CSV)
+- hply (win rate 54%, cell S3 in CSV)
+- lockguard (win rate 54%, cell U3 in CSV)
+- sale-finder.M1.3 (win rate 50%, cell Z3 in CSV)
+- genaix (win rate 46%, cell W3 in CSV)
+- (lockguardXclockchain).G1.2 (win rate 46%, cell AD3 in CSV)
+- angelry (win rate 46%, cell V3 in CSV)
+- (lockguardXhply).G1.1 (win rate 46%, cell AC3 in CSV)
+- genaix.M1.1 (win rate 43%, cell X3 in CSV)
+- (genaixXhply).G1.3 (win rate 29%, cell AE3 in CSV)
+- (clockchainXhply).G1.5 (win rate 18%, cell AG3 in CSV)
+- (angelryXhply).G1.4 (win rate 0%, cell AF3 in CSV)
+
+** Best firm: clockchain.M1.5 (cell AB3 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Revenue Logic
+
+To sustain the venture, the team is planning to explore a tiered subscription model. The planned model would provide a free tier for infrequent, personal use, while offering paid tiers for professionals and businesses requiring higher-volume anchoring, advanced verification features, or dedicated support. This would allow the core service to remain broadly accessible while generating revenue from users who derive significant value from it.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+
+** Difference from step 0
+
+The old version described a donation platform connecting donors to vetted nonprofits, emphasizing trust, impact updates, and a streamlined giving process. The new version is a completely different product: a technical tool for proving digital file authenticity via cryptographic fingerprints and a public ledger, focusing on security, privacy, and combating deepfakes. The strategy shifted from a social good app with a transparent fee model to a B2B/creator-focused tool with a planned subscription revenue model.
+
+** Lineage
+
+The mutation added a new "Revenue Logic" section that was absent from the parent plan. It specifically introduces a planned tiered subscription model, outlining a free tier for personal use and paid tiers for professional/business features like higher volume and advanced verification.
+
+* Step 2
+
+** Ranking
+
+- clockchain.M1.5.M2.2 (win rate 89%, cell Y4 in CSV)
+- clockchain.M1.5.M2.3 (win rate 89%, cell Z4 in CSV)
+- clockchain.M1.5.M2.5 (win rate 86%, cell AB4 in CSV)
+- clockchain.M1.5 (win rate 79%, cell S4 in CSV)
+- ((lockguardXclockchain).G1.2Xhply.M1.4).G2.1 (win rate 57%, cell AC4 in CSV)
+- sale-finder.M1.3 (win rate 54%, cell W4 in CSV)
+- hply.M1.4 (win rate 54%, cell T4 in CSV)
+- angelry.M1.2 (win rate 50%, cell V4 in CSV)
+- angelry.M1.2.M2.1 (win rate 46%, cell X4 in CSV)
+- (lockguardXclockchain).G1.2 (win rate 39%, cell U4 in CSV)
+- (genaixXhply).G1.3.M2.4 (win rate 29%, cell AA4 in CSV)
+- (clockchainXhply.M1.4).G2.2 (win rate 29%, cell AD4 in CSV)
+- ((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4 (win rate 25%, cell AF4 in CSV)
+- ((clockchainXhply).G1.5X(lockguardXclockchain).G1.2).G2.5 (win rate 14%, cell AG4 in CSV)
+- (sale-finder.M1.3Xclockchain.M1.5).G2.3 (win rate 11%, cell AE4 in CSV)
+
+** Best firm: clockchain.M1.5.M2.2 (cell Y4 in CSV)
+
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. To improve delivery, the team plans to explore a phased rollout strategy, starting with a closed beta for a small group of early backers before the wider public beta launch.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Revenue Logic
+
+To sustain the venture, the team is planning to explore a tiered subscription model. The planned model would provide a free tier for infrequent, personal use, while offering paid tiers for professionals and businesses requiring higher-volume anchoring, advanced verification features, or dedicated support. This would allow the core service to remain broadly accessible while generating revenue from users who derive significant value from it.
+
+## Support & Post-Launch Plans
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+--- END PROJECT ---
+
+** Difference from step 1
+
+The only substantive change is in the Roadmap & Delivery Plan section, where the new version adds a specific phased rollout strategy. It now mentions starting with a closed beta for early backers before the wider public beta launch, which refines the delivery approach. All other sections remain identical.
+
+** Lineage
+
+The mutation added a **phased rollout strategy** to the delivery plan. Specifically, it introduced a **closed beta for early backers** as an initial step before the wider public beta launch. This alters the delivery model from a single public release to a more controlled, staged approach.
+
+* Step 3
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2 (win rate 86%, cell Y5 in CSV)
+- clockchain.M1.5.M2.2 (win rate 86%, cell S5 in CSV)
+- clockchain.M1.5.M3.3 (win rate 79%, cell Z5 in CSV)
+- clockchain.M1.5.M2.3.M3.4 (win rate 75%, cell AA5 in CSV)
+- clockchain.M1.5.M2.5 (win rate 68%, cell T5 in CSV)
+- (clockchain.M1.5X(lockguardXclockchain).G1.2).G3.1 (win rate 64%, cell AC5 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4 (win rate 61%, cell AF5 in CSV)
+- hply.M1.4 (win rate 46%, cell W5 in CSV)
+- sale-finder.M1.3 (win rate 39%, cell V5 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2 (win rate 39%, cell AD5 in CSV)
+- (clockchain.M1.5.M2.5X(lockguardXclockchain).G1.2).G3.3 (win rate 32%, cell AE5 in CSV)
+- (lockguardXclockchain).G1.2.M3.5 (win rate 29%, cell AB5 in CSV)
+- ((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1 (win rate 21%, cell X5 in CSV)
+- (genaixXhply).G1.3.M2.4 (win rate 14%, cell U5 in CSV)
+- (((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.5 (win rate 11%, cell AG5 in CSV)
+
+** Best firm: clockchain.M1.5.M2.3.M3.2 (cell Y5 in CSV)
+
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication. This challenge extends beyond establishing simple precedence to undermining trust in digital evidence within legal, journalistic, and commercial contexts, where the inability to definitively authenticate a file's provenance or creation time can have significant consequences.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Distinctiveness: Why This Approach Differs Meaningfully from Available Alternatives
+
+This approach is distinct because it decouples the proof of existence from the file itself, anchoring only a hash to a public ledger, while most alternatives either require uploading the entire file to a centralized service or rely on complex, resource-intensive blockchain networks for storage and verification. The proposed system aims to provide a simpler, more accessible, and environmentally conscious verification layer that prioritizes user privacy and data sovereignty, avoiding the pitfalls of vendor lock-in or high transactional costs associated with many blockchain-based timestamping services.
+
+## Revenue Logic
+
+To sustain the venture, the team is planning to explore a tiered subscription model. The planned model would provide a free tier for infrequent, personal use, while offering paid tiers for professionals and businesses requiring higher-volume anchoring, advanced verification features, or dedicated support. This would allow the core service to remain broadly accessible while generating revenue from users who derive significant value from it.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+--- END PROJECT ---
+
+** Difference from step 2
+
+The new version expands the "Problem" section to highlight broader consequences in legal and commercial contexts and adds a "Distinctiveness" section to clearly differentiate the approach from centralized services and complex blockchain alternatives. The "Roadmap" section in the new version omits the specific mention of a phased beta rollout strategy that was present in the old version.
+
+** Lineage
+
+The mutation added a new standalone section titled **"Distinctiveness: Why This Approach Differs Meaningfully from Available Alternatives."** This section explicitly contrasts the project's method—anchoring only a hash to a public ledger—with common alternatives, highlighting its advantages in terms of simplicity, accessibility, environmental impact, and user privacy compared to centralized file-upload services or complex, resource-intensive blockchain networks. No other content was removed or altered from the original plan.
+
+* Step 4
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2.M4.4 (win rate 96%, cell AA6 in CSV)
+- clockchain.M1.5.M2.3.M3.2.M4.3 (win rate 89%, cell Z6 in CSV)
+- clockchain.M1.5.M2.3.M3.2.M4.2 (win rate 82%, cell Y6 in CSV)
+- clockchain.M1.5.M2.2.M4.1 (win rate 75%, cell X6 in CSV)
+- clockchain.M1.5.M2.2 (win rate 54%, cell T6 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2 (win rate 54%, cell W6 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4 (win rate 50%, cell S6 in CSV)
+- (clockchain.M1.5.M2.2X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4).G4.2 (win rate 46%, cell AD6 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M4.5 (win rate 43%, cell AB6 in CSV)
+- ((clockchain.M1.5.M2.5X(lockguardXclockchain).G1.2).G3.3X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4).G4.3 (win rate 43%, cell AE6 in CSV)
+- sale-finder.M1.3 (win rate 43%, cell V6 in CSV)
+- (clockchain.M1.5.M2.3.M3.2X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4).G4.4 (win rate 39%, cell AF6 in CSV)
+- (genaixXhply).G1.3.M2.4 (win rate 18%, cell U6 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1 (win rate 14%, cell AC6 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.5 (win rate 4%, cell AG6 in CSV)
+
+** Best firm: clockchain.M1.5.M2.3.M3.2.M4.4 (cell AA6 in CSV)
+
+--- BEGIN PROJECT ---
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication. This challenge extends beyond establishing simple precedence to undermining trust in digital evidence within legal, journalistic, and commercial contexts, where the inability to definitively authenticate a file's provenance or creation time can have significant consequences.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Distinctiveness: Why This Approach Differs Meaningfully from Available Alternatives
+
+This approach is distinct because it decouples the proof of existence from the file itself, anchoring only a hash to a public ledger, while most alternatives either require uploading the entire file to a centralized service or rely on complex, resource-intensive blockchain networks for storage and verification. The proposed system aims to provide a simpler, more accessible, and environmentally conscious verification layer that prioritizes user privacy and data sovereignty, avoiding the pitfalls of vendor lock-in or high transactional costs associated with many blockchain-based timestamping services. A planned technical enhancement is to explore the integration of a multi-ledger anchoring mechanism, which could increase resilience by distributing proof across multiple independent public ledgers, further mitigating the risk of any single point of failure or ledger obsolescence.
+
+## Revenue Logic
+
+To sustain the venture, the team is planning to explore a tiered subscription model. The planned model would provide a free tier for infrequent, personal use, while offering paid tiers for professionals and businesses requiring higher-volume anchoring, advanced verification features, or dedicated support. This would allow the core service to remain broadly accessible while generating revenue from users who derive significant value from it.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+--- END PROJECT ---
+--- END PROJECT ---
+
+** Difference from step 3
+
+The key change is an addition to the "Distinctiveness" section, where the new version introduces a planned technical enhancement: exploring a multi-ledger anchoring mechanism to increase resilience by distributing proof across multiple independent ledgers. This is the only substantive difference between the two versions.
+
+** Lineage
+
+The mutation added a specific technical enhancement to the distinctiveness section: the exploration of a **multi-ledger anchoring mechanism**. This addition frames the approach as more resilient by proposing to distribute proof across multiple independent public ledgers, thereby mitigating the risk of a single point of failure or ledger obsolescence. No content was removed or altered from the original description; this new feature was appended to the existing paragraph.
+
+* Step 5
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2.M4.3.M5.2 (win rate 96%, cell Y7 in CSV)
+- clockchain.M1.5.M2.3.M3.2.M4.3.M5.1 (win rate 86%, cell X7 in CSV)
+- clockchain.M1.5.M2.2.M4.1.M5.5 (win rate 79%, cell AB7 in CSV)
+- clockchain.M1.5.M2.3.M3.2.M4.2 (win rate 71%, cell V7 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3 (win rate 64%, cell Z7 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4 (win rate 54%, cell AA7 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M4.5 (win rate 50%, cell W7 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2 (win rate 46%, cell S7 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4 (win rate 46%, cell T7 in CSV)
+- sale-finder.M1.3 (win rate 43%, cell U7 in CSV)
+- ((clockchain.M1.5.M2.2X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4).G4.2X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.2 (win rate 43%, cell AD7 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1 (win rate 29%, cell AC7 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M4.5X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.3 (win rate 21%, cell AE7 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.4 (win rate 18%, cell AF7 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2Xangelry).G5.5 (win rate 4%, cell AG7 in CSV)
+
+** Best firm: clockchain.M1.5.M2.3.M3.2.M4.3.M5.2 (cell Y7 in CSV)
+
+--- BEGIN PROJECT ---
+--- BEGIN PROJECT ---
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication. This challenge extends beyond establishing simple precedence to undermining trust in digital evidence within legal, journalistic, and commercial contexts, where the inability to definitively authenticate a file's provenance or creation time can have significant consequences.
+
+## Solution / Product Overview
+
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on.
+
+## Key Features & Capabilities
+
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets.
+
+## Development Status
+
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule.
+
+## Why Crowdfunding / Use of Funds
+
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Distinctiveness: Why This Approach Differs Meaningfully from Available Alternatives
+
+This approach is distinct because it decouples the proof of existence from the file itself, anchoring only a hash to a public ledger, while most alternatives either require uploading the entire file to a centralized service or rely on complex, resource-intensive blockchain networks for storage and verification. The proposed system aims to provide a simpler, more accessible, and environmentally conscious verification layer that prioritizes user privacy and data sovereignty. A planned future distinction is the exploration of anchoring to multiple, heterogeneous public ledgers (such as different blockchains and non-blockchain public data registries) to increase resilience and reduce single-point dependency, avoiding the pitfalls of vendor lock-in or high transactional costs associated with many current blockchain-based timestamping services.
+
+## Revenue Logic
+
+To sustain the venture, the team is planning to explore a revenue model centered on a usage-based API. The planned model would provide a generous free tier for infrequent, personal use via a public web interface, while offering a paid API for developers, platforms, and businesses that need to programmatically anchor and verify large volumes of files. This would allow the core service to remain broadly accessible while generating revenue from integrations and high-volume use cases that derive significant value from automated, scalable verification.
+
+## Support & Post-Launch Plans
+
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+--- END PROJECT ---
+--- END PROJECT ---
+--- END PROJECT ---
+
+** Difference from step 4
+
+The key change is a strategic pivot in the revenue model from a tiered subscription plan to a usage-based API model, targeting developers and platforms for scalable integration. The description of the multi-ledger anchoring feature is also slightly refined, emphasizing resilience through "heterogeneous" ledgers. The core product, problem, and other sections remain unchanged.
+
+** Lineage
+
+The mutation added a new planned feature to the distinctiveness section: the exploration of anchoring file fingerprints to multiple, heterogeneous public ledgers (different blockchains and non-blockchain registries). This addition aims to increase system resilience and reduce single-point dependency, enhancing the original claim of avoiding vendor lock-in. No content was removed from the original distinctiveness argument; the change is an additive extension of the technical approach.
+
+* Step 6
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2.M4.3.M5.2 (win rate 93%, cell V8 in CSV)
+- clockchain.M1.5.M2.3.M3.2.M4.3.M5.1.M6.1 (win rate 89%, cell X8 in CSV)
+- clockchain.M1.5.M2.2.M4.1.M5.5 (win rate 68%, cell W8 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1 (win rate 64%, cell AC8 in CSV)
+- (clockchain.M1.5.M2.3.M3.2.M4.3.M5.2X(clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4).G6.5 (win rate 64%, cell AG8 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3 (win rate 61%, cell Z8 in CSV)
+- (clockchain.M1.5.M2.2.M4.1.M5.5X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3).G6.2 (win rate 50%, cell AD8 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3 (win rate 46%, cell S8 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4 (win rate 46%, cell T8 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.2 (win rate 46%, cell Y8 in CSV)
+- sale-finder.M1.3 (win rate 43%, cell U8 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5 (win rate 39%, cell AB8 in CSV)
+- (clockchain.M1.5.M2.3.M3.2.M4.3.M5.2X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3).G6.3 (win rate 21%, cell AE8 in CSV)
+- ((clockchain.M1.5.M2.2X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4).G4.2X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.2.M6.4 (win rate 11%, cell AA8 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.4 (win rate 7%, cell AF8 in CSV)
+
+** Best firm (same plan as step 5)
+
+** Difference from step 5 (no change)
+
+* Step 7
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2.M4.3.M5.2 (win rate 93%, cell T9 in CSV)
+- clockchain.M1.5.M2.2.M4.1.M5.5.M7.4 (win rate 82%, cell AA9 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1 (win rate 68%, cell X9 in CSV)
+- (clockchain.M1.5.M2.2.M4.1.M5.5X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1).G7.4 (win rate 64%, cell AF9 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M7.2 (win rate 61%, cell Y9 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3 (win rate 57%, cell Z9 in CSV)
+- sale-finder.M1.3 (win rate 54%, cell U9 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1 (win rate 54%, cell S9 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3 (win rate 54%, cell V9 in CSV)
+- (clockchain.M1.5.M2.2.M4.1.M5.5X(clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3).G7.5 (win rate 43%, cell AG9 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4 (win rate 39%, cell W9 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M7.5 (win rate 36%, cell AB9 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xgenaix).G7.1 (win rate 25%, cell AC9 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xbugout-battery).G7.2 (win rate 21%, cell AD9 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xhooper).G7.3 (win rate 0%, cell AE9 in CSV)
+
+** Best firm (same plan as step 5)
+
+** Difference from step 5 (no change)
+
+* Step 8
+
+** Ranking
+
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1.M8.5 (win rate 89%, cell AB10 in CSV)
+- clockchain.M1.5.M2.2.M4.1.M5.5.M7.4.M8.4 (win rate 86%, cell AA10 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M8.3 (win rate 71%, cell Z10 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1 (win rate 64%, cell AC10 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2 (win rate 64%, cell Y10 in CSV)
+- sale-finder.M1.3 (win rate 57%, cell U10 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1.M8.1 (win rate 54%, cell X10 in CSV)
+- (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1 (win rate 50%, cell T10 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3 (win rate 46%, cell S10 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1 (win rate 43%, cell V10 in CSV)
+- (clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M7.2 (win rate 43%, cell W10 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.5 (win rate 36%, cell AG10 in CSV)
+- ((((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xgenaix).G7.1Xbugout-battery).G8.2 (win rate 25%, cell AD10 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xgenaix).G7.1).G8.4 (win rate 14%, cell AF10 in CSV)
+- ((((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1Xgenaix).G7.1Xhooper).G8.3 (win rate 7%, cell AE10 in CSV)
+
+** Best firm: (clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1.M8.5 (cell AB10 in CSV)
+
+--- BEGIN PROJECT ---
+--- BEGIN PROJECT ---
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+
+A privacy-first verification platform that generates a verifiable fingerprint of charitable actions and anchors it to a public, time-stamped ledger, providing donors and corporate partners with indisputable proof of impact for every contribution.
+
+## Problem
+
+The venture plans to address a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. It frames the central question as how people can credibly prove the occurrence and authenticity of charitable actions amid pervasive digital manipulation and duplication.
+
+## Target Users & Use Cases
+
+The venture plans to target institutional funders such as private foundations, grant-making entities, and government agencies as its primary customers. A planned, specific target user group for initial outreach is corporate social responsibility (CSR) departments and corporate foundations that manage large-scale giving programs and require auditable, tamper-proof records of their philanthropic disbursements and the associated outcomes for compliance and reporting. These institutional users are planned to use the platform to verify the execution and impact of grants, to ensure funds were used as intended, and to generate immutable proof for their stakeholders. While individual donors remain users of the verification service, the venture's core customer and revenue focus is planned to shift to these institutional entities.
+
+## Solution / Product Overview
+
+The venture plans to build a tool that creates a digital fingerprint of a user's charitable action data and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload sensitive personal or financial details; instead, a compact fingerprint of the event data is used as a durable evidence marker. The venture positions this as a quiet safeguard for charitable truth that everyday donors, as well as corporate partners, can rely on.
+
+## Delivery Model
+
+The venture plans a lightweight, privacy-first approach. It will generate compact, anonymized fingerprints of event data for ledger anchoring, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is a secure and resource-conscious implementation that maintains long-term verifiability with minimal environmental impact. The team plans to build a clean public interface and supporting infrastructure to make the verification tools usable by its target audience.
+
+## Revenue Logic
+
+The venture plans to generate revenue through a tiered subscription model primarily targeting institutional funders. A proposed basic tier would provide access to the core verification ledger and standard impact reporting for a flat annual fee. A planned premium tier would include advanced analytics, custom reporting dashboards, and integration with corporate giving program software for a higher subscription rate. The venture also plans to explore a potential transaction-based fee model for high-volume grant-making entities, where a small fee is applied per verified grant or disbursement event anchored to the ledger. An initial free trial period for the subscription service is proposed to onboard nonprofit partners. To further support sustainability, the venture plans to explore a potential revenue stream from providing audit and verification-as-a-service to third-party philanthropic platforms and donor-advised fund (DAF) providers, enabling them to offer tamper-proof proof of impact to their own clients for a planned licensing or API access fee.
+
+## Distinctiveness
+
+The venture aims to differentiate itself by merging immediate charitable action with enduring, independently verifiable digital proof. Its proposed system does not just facilitate donations and report impact; it aims to create a permanent, tamper-evident record that a specific charitable event occurred at a specific time and is linked to specific outcomes, directly addressing the trust deficit in the philanthropic sector. This privacy-first design, where only hashed fingerprints of event data are stored on the public ledger, is presented as a unique safeguard that protects donor privacy while anchoring the truth of charitable impact.
+--- END PROJECT ---
+--- END PROJECT ---
+--- END PROJECT ---
+
+** Difference from step 5
+
+The project has pivoted from a general-purpose tool for proving file originality to a specialized platform for verifying charitable actions and impact. The target customer has shifted from individual creators and professionals to institutional funders like corporate CSR departments, with the revenue model changing from a usage-based API to tiered institutional subscriptions. The core technology remains similar, but its application is now narrowly focused on creating tamper-proof records for philanthropy.
+
+** Lineage
+
+The mutation added a new potential revenue stream focused on business-to-business (B2B) services. Specifically, the child plan now includes exploring "audit and verification-as-a-service" for third-party philanthropic platforms and donor-advised fund providers, to be monetized through a licensing or API access fee. This addition expands the revenue logic beyond the original tiered subscriptions and transaction fees to include a white-label or partnership model.
+
+* Step 9
+
+** Ranking
+
+- clockchain.M1.5.M2.2.M4.1.M5.5.M7.4.M8.4.M9.5 (win rate 89%, cell AB11 in CSV)
+- clockchain.M1.5.M2.2.M4.1.M5.5.M7.4.M8.4.M9.1 (win rate 89%, cell X11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.4 (win rate 71%, cell AA11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2 (win rate 68%, cell Y11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M8.3 (win rate 57%, cell T11 in CSV)
+- sale-finder.M1.3 (win rate 54%, cell U11 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1Xgenaix).G9.3 (win rate 54%, cell AE11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1 (win rate 50%, cell S11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3 (win rate 46%, cell Z11 in CSV)
+- ((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1).G9.5 (win rate 43%, cell AG11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3 (win rate 39%, cell W11 in CSV)
+- (((clockchain.M1.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.2.M5.4.M6.5.M7.1X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.5Xgenaix).G9.1 (win rate 39%, cell AC11 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2 (win rate 36%, cell V11 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3Xgenaix).G9.4 (win rate 14%, cell AF11 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2 (win rate 0%, cell AD11 in CSV)
+
+** Best firm: clockchain.M1.5.M2.2.M4.1.M5.5.M7.4.M8.4.M9.5 (cell AB11 in CSV)
+
+## One-Sentence Summary
+
+A lightweight, privacy-first tool that generates a verifiable fingerprint of a file and anchors it to a public, time-stamped ledger so anyone can prove originality and authenticity.
+
+## Problem
+The creators describe a digital landscape saturated with deepfakes, fake screenshots, copied artwork, and altered media, where "anyone can post anything," making it increasingly difficult to establish what's original or real. They frame the central question as how people can credibly prove ownership or first possession of digital work amid pervasive manipulation and duplication.
+
+## Solution / Product Overview
+The product creates a digital fingerprint of a user's file and records proof of that fingerprint on a public, time-stamped ledger. The approach is presented as secure and privacy-preserving: users do not upload the actual file; instead, a compact fingerprint is used as a durable evidence marker. The creators position this as a quiet safeguard for digital truth that everyday people, as well as professionals, can rely on. To enhance accessibility and user trust, the team plans to explore the development of a simple, downloadable verification tool. This planned tool would allow anyone to independently verify a file's anchored fingerprint without needing to use the main service interface, providing a decentralized check on authenticity.
+
+## Key Features & Capabilities
+-   File fingerprinting: produces a unique hash of a file for proof of originality.
+-   Public, time-stamped anchoring: writes proof to a ledger that can be independently checked.
+-   Privacy-first design: only hashed fingerprints are stored, not the underlying files.
+-   Lightweight implementation: designed to be efficient and resource-conscious.
+-   Security emphasis: presented as "lightweight, secure, and built for the future."
+
+## Target Users & Use Cases
+The campaign calls out artists, small businesses, journalists, and anyone who wants to prove "I had this first." Primary uses include establishing authorship, deterring copycats, and documenting the creation time of digital assets. As a proposed extension, the team also plans to explore a dedicated use case within the academic and research community, aiming to develop features tailored for researchers who need to securely timestamp and prove precedence for datasets, pre-print manuscripts, and experimental findings.
+
+## Distinctiveness: Why This Approach Differs Meaningfully from Available Alternatives
+The project's distinctiveness lies in its specific, integrated combination of privacy, accessibility, and verifiability. Unlike file-upload timestamping services, it never stores the original file, protecting user content. Unlike complex blockchain-based solutions that can be costly or energy-intensive, it uses a lightweight, public ledger for anchoring fingerprints, aiming for minimal environmental impact and broad accessibility. The proposed approach is to focus on being a simple, dedicated tool for proof-of-existence, rather than a marketplace, a rights management platform, or a full digital notary service. This is intended to make it a more straightforward and resource-efficient option for everyday creators. As a planned extension of this accessible core, the team has expressed an intent to explore APIs and developer tools that would allow the anchoring and verification functions to be integrated into existing creative workflows and content management systems, thereby embedding proof-of-existence into the platforms where content is created and shared.
+
+## Development Status
+The "core protocol already works," and an early form is live privately. The team is seeking to build a cleaner public interface and supporting infrastructure so the tool is usable by a broader audience.
+
+## Roadmap & Delivery Plan
+Planned steps include hiring a developer and a designer to build a smoother public interface; polishing usability; and layering in infrastructure for scale. The team references a January beta target and says cushion time has been built into the schedule. To improve delivery, the team plans to explore a phased rollout strategy, starting with a closed beta for a small group of early backers before the wider public beta launch.
+
+## Why Crowdfunding / Use of Funds
+Funds will support building a public-facing site and the underlying infrastructure, along with the hiring needed to deliver a refined interface and broaden access.
+
+## Risks & Challenges
+The main risk is talent acquisition: delays in hiring or extended timelines could push back the January beta. Mitigations include existing architecture, a lean scope, added schedule buffer, and a commitment to communicate changes clearly.
+
+## Team & Partnerships
+The effort is led by engineers who emphasize building for everyday creators in their lives. All architecture and content are created and reviewed by a human team.
+
+## Technical Details
+Only hashed fingerprints are stored, dramatically reducing storage and compute compared with systems that store full files or rely on energy-intensive consensus mechanisms. The goal is long-term security and transparency with minimal environmental impact.
+
+## Revenue Logic
+To sustain the venture, the team is planning to explore a tiered subscription model. The planned model would provide a free tier for infrequent, personal use, while offering paid tiers for professionals and businesses requiring higher-volume anchoring, advanced verification features, or dedicated support. This would allow the core service to remain broadly accessible while generating revenue from users who derive significant value from it.
+
+## Support & Post-Launch Plans
+The team promises clear communication with backers if plans change and notes limited, supportive use of AI tools for coding and documentation; they are not building AI technology nor using AI to generate creative assets.
+
+** Difference from step 8
+
+The project has shifted from a charity-focused verification platform to a general-purpose tool for proving digital file originality, targeting everyday creators rather than institutional funders. The revenue model changed from a B2B subscription for charities to a freemium model for personal and professional use. The new version also introduces a broader roadmap, including plans for a downloadable verification tool and API integrations.
+
+** Lineage
+
+The mutation did not change the plan along the problem dimension. The child plan's "Problem" section is an exact, verbatim copy of the parent plan's "Problem" section. No text was added, removed, or altered.
+
+* Step 10
+
+** Ranking
+
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3 (win rate 86%, cell Z12 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.4 (win rate 86%, cell T12 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.5 (win rate 79%, cell AB12 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M10.4 (win rate 75%, cell AA12 in CSV)
+- sale-finder.M1.3 (win rate 64%, cell U12 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2 (win rate 64%, cell S12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3 (win rate 50%, cell AE12 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1 (win rate 50%, cell W12 in CSV)
+- (clockchain.M1.5.M2.2.M4.1.M5.5.M7.4.M8.4.M9.1X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2).G10.1 (win rate 46%, cell AC12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.4X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.2 (win rate 46%, cell AD12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1Xgenaix).G9.3 (win rate 46%, cell V12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2Xgenaix).G10.4 (win rate 25%, cell AF12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2Xbugout-battery).G10.5 (win rate 21%, cell AG12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2.M10.2 (win rate 11%, cell Y12 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2.M10.1 (win rate 0%, cell X12 in CSV)
+
+** Best firm: ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3 (cell Z12 in CSV)
+
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+A privacy-first platform that generates verifiable digital fingerprints of ethical sourcing events and anchors them to a public, tamper-proof ledger, giving brands and consumers indisputable proof of provenance while protecting sensitive operational data.
+
+## Problem
+The venture plans to address a digital landscape saturated with manipulation and duplication, where it is increasingly difficult to establish what is original or real. The central challenge is enabling people to credibly prove the authenticity and first possession of a digital record—such as a donation confirmation or an impact report—amid pervasive skepticism and the ease of generating false claims. A specific, related challenge the venture plans to explore is the inefficiency and lack of standardization in the verification process for corporate matching gift programs, where employees often face cumbersome manual steps to prove their donations, creating friction that reduces participation.
+
+## Target Users & Use Cases
+The venture plans to target both brands seeking to validate their supply chains and consumers looking for trustworthy ethical goods. Primary scenarios include discovering vetted, ethical suppliers (from large, global operations to local, artisanal producers), verifying material provenance with confidence, and providing transparent proof of sourcing standards to end customers. A planned, specific target user group for initial outreach is procurement teams within consumer goods companies participating in sustainability certification or reporting programs, who need a streamlined way to discover vetted suppliers and provide indisputable proof of their ethical sourcing actions to qualify for certifications or meet regulatory requirements.
+
+## Solution / Product Overview
+The venture plans to build a tool that creates a digital fingerprint of a user's charitable event data—such as a donation receipt or a nonprofit's impact milestone—and records proof of that fingerprint on a public, time-stamped ledger. The approach is proposed to be secure and privacy-preserving: users would not upload sensitive raw data; instead, a compact fingerprint would serve as durable evidence. This is positioned as a quiet safeguard for digital truth that donors, nonprofits, and verifying partners can rely on. To increase trust, the team plans to explore adding a decentralized, community-run witness network to provide a secondary, distributed layer of attestation to the ledger's timestamps. Furthermore, the venture plans to explore the development of a simple, open-source verification widget that any third-party website (like a nonprofit's blog or a corporate social responsibility page) could embed to allow visitors to independently verify the timestamp and authenticity of a claimed charitable fingerprint directly from that page.
+
+## Delivery Model
+The venture plans a lightweight, privacy-first implementation. It would not store sensitive donor financial details or the underlying event files. Instead, it would generate compact, anonymized fingerprints of that data for ledger anchoring. The goal is a secure and resource-conscious design that maintains long-term verifiability with minimal infrastructure. The team plans to build a clean public interface and supporting infrastructure to make the verification tools usable by its target audience.
+
+## Revenue Logic
+The venture plans to generate revenue through the sale of a subscription service to brands and suppliers for access to the verification ledger, advanced provenance reporting features, and supply chain management capabilities within the platform. An initial free trial period for the subscription service is proposed to onboard supplier and brand partners. The venture also plans to explore potential optional upgrades for enhanced connectivity or integration services for enterprise procurement or certification programs.
+
+## Distinctiveness
+The venture aims to differentiate itself by offering heirloom-quality goods that merge immediate, tangible material qualities with enduring digital proof of ethical sourcing. Its proposed system does not just provide a product; it aims to create a permanent, independently verifiable record that the materials were sourced according to specific ethical standards at a specific time, addressing the credibility problem of sustainability claims. This focus on verifiable provenance from a specific, ethical source is presented as a unique safeguard for both consumer trust and material truth. The venture plans to explore a further point of differentiation: structuring its public ledger not just as a tamper-proof record, but as a machine-readable, open registry of ethical sourcing standards. This would allow the fingerprints to be programmatically linked to the precise definitions of the ethical standards they claim to uphold, aiming to create a new layer of semantic clarity and auditability that is missing from current provenance claims.
+--- END PROJECT ---
+
+** Difference from step 9
+
+The project's core technology remains similar, but its focus has shifted from a general-purpose tool for proving digital file originality to a specialized platform for verifying ethical sourcing events and supply chain provenance. Its target users changed from individual creators to brands and consumers, with a new emphasis on business applications like corporate matching gifts and supplier verification. The revenue model evolved from a potential tiered subscription for individuals to a planned subscription service sold directly to brands and suppliers.
+
+** Lineage
+
+The mutation added a new layer of distinctiveness by proposing that the public ledger be structured not only as a tamper-proof record but also as a **machine-readable, open registry of ethical sourcing standards**. This addition aims to create a new layer of semantic clarity and auditability by allowing digital fingerprints to be programmatically linked to the precise definitions of the standards they uphold, which is presented as a missing feature in current provenance claims.
+
+* Step 11
+
+** Ranking
+
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.4 (win rate 86%, cell AA13 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.5 (win rate 86%, cell AB13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4 (win rate 75%, cell AF13 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3 (win rate 75%, cell S13 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.1 (win rate 71%, cell X13 in CSV)
+- sale-finder.M1.3 (win rate 64%, cell U13 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.4 (win rate 61%, cell W13 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M10.4 (win rate 54%, cell T13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M10.4X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.5 (win rate 43%, cell AG13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.5X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.1 (win rate 43%, cell AC13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3 (win rate 32%, cell V13 in CSV)
+- ((((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3Xbugout-battery).G11.3 (win rate 21%, cell AE13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2.M10.2.M11.2 (win rate 21%, cell Y13 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2Xgenaix).G10.4.M11.3 (win rate 18%, cell Z13 in CSV)
+- ((((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2Xgenaix).G10.4Xbugout-battery).G11.2 (win rate 0%, cell AD13 in CSV)
+
+** Best firm: ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.4 (cell AA13 in CSV)
+
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+A privacy-first platform that generates verifiable digital fingerprints of ethical sourcing events and anchors them to a public, tamper-proof ledger, giving brands and consumers indisputable proof of provenance while protecting sensitive operational data.
+
+## Problem
+The venture plans to address a digital landscape saturated with manipulation and duplication, where it is increasingly difficult to establish what is original or real. The central challenge is enabling people to credibly prove the authenticity and first possession of a digital record—such as a donation confirmation or an impact report—amid pervasive skepticism and the ease of generating false claims. A specific, related challenge the venture plans to explore is the inefficiency and lack of standardization in the verification process for corporate matching gift programs, where employees often face cumbersome manual steps to prove their donations, creating friction that reduces participation.
+
+## Target Users & Use Cases
+The venture plans to target both brands seeking to validate their supply chains and consumers looking for trustworthy ethical goods. Primary scenarios include discovering vetted, ethical suppliers (from large, global operations to local, artisanal producers), verifying material provenance with confidence, and providing transparent proof of sourcing standards to end customers. A planned, specific target user group for initial outreach is procurement teams within consumer goods companies participating in sustainability certification or reporting programs, who need a streamlined way to discover vetted suppliers and provide indisputable proof of their ethical sourcing actions to qualify for certifications or meet regulatory requirements.
+
+## Solution / Product Overview
+The venture plans to build a tool that creates a digital fingerprint of a user's charitable event data—such as a donation receipt or a nonprofit's impact milestone—and records proof of that fingerprint on a public, time-stamped ledger. The approach is proposed to be secure and privacy-preserving: users would not upload sensitive raw data; instead, a compact fingerprint would serve as durable evidence. This is positioned as a quiet safeguard for digital truth that donors, nonprofits, and verifying partners can rely on. To increase trust, the team plans to explore adding a decentralized, community-run witness network to provide a secondary, distributed layer of attestation to the ledger's timestamps. Furthermore, the venture plans to explore the development of a simple, open-source verification widget that any third-party website (like a nonprofit's blog or a corporate social responsibility page) could embed to allow visitors to independently verify the timestamp and authenticity of a claimed charitable fingerprint directly from that page.
+
+## Delivery Model
+The venture plans a lightweight, privacy-first implementation. It would not store sensitive donor financial details or the underlying event files. Instead, it would generate compact, anonymized fingerprints of that data for ledger anchoring. The goal is a secure and resource-conscious design that maintains long-term verifiability with minimal infrastructure. The team plans to build a clean public interface and supporting infrastructure to make the verification tools usable by its target audience.
+
+## Revenue Logic
+The venture plans to generate revenue primarily through a transaction-based model, charging a fee for each verifiable digital fingerprint anchored to the public ledger. This would apply to brands, suppliers, and potentially other entities (such as nonprofits in the matching gift use case) seeking to create a permanent, auditable record of an ethical sourcing event or donation. The venture also plans to explore offering optional subscription tiers for high-volume users, which could include advanced provenance reporting features, supply chain management capabilities, or enhanced integration services for enterprise procurement or certification programs. An initial free trial period for generating a limited number of fingerprints is proposed to onboard partners.
+
+## Distinctiveness
+The venture aims to differentiate itself by offering heirloom-quality goods that merge immediate, tangible material qualities with enduring digital proof of ethical sourcing. Its proposed system does not just provide a product; it aims to create a permanent, independently verifiable record that the materials were sourced according to specific ethical standards at a specific time, addressing the credibility problem of sustainability claims. This focus on verifiable provenance from a specific, ethical source is presented as a unique safeguard for both consumer trust and material truth. The venture plans to explore a further point of differentiation: structuring its public ledger not just as a tamper-proof record, but as a machine-readable, open registry of ethical sourcing standards. This would allow the fingerprints to be programmatically linked to the precise definitions of the ethical standards they claim to uphold, aiming to create a new layer of semantic clarity and auditability that is missing from current provenance claims.
+--- END PROJECT ---
+
+** Difference from step 10
+
+The key change is in the Revenue Logic, shifting from a subscription-based model for brands and suppliers to a primarily transaction-based model, charging a fee per digital fingerprint created. This change makes the revenue logic more directly tied to core platform usage and potentially lowers the initial barrier to entry with a free trial of limited transactions. All other sections, including the problem, solution, and distinctiveness, remain essentially unchanged.
+
+** Lineage
+
+The mutation changed the revenue model from a subscription-based service for brands and suppliers to a primarily transaction-based model, charging a fee for each digital fingerprint anchored to the ledger. It added a new revenue stream by explicitly including nonprofits and other entities in the transaction fee structure, while repositioning subscription tiers as an optional upgrade for high-volume users rather than the core offering. The free trial was also altered from a subscription trial to a trial offering a limited number of free fingerprint generations.
+
+* Step 12: Final evaluation
+
+** Ranking
+
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4.M12.2 (win rate 86%, cell Y14 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.5.M12.5 (win rate 79%, cell AB14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.5X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M10.4X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.5).G12.4 (win rate 75%, cell AF14 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.4.M12.1 (win rate 64%, cell X14 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.5 (win rate 57%, cell S14 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.4 (win rate 54%, cell W14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4.M12.3 (win rate 50%, cell Z14 in CSV)
+- sale-finder.M1.3 (win rate 50%, cell U14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.5X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4).G12.3 (win rate 43%, cell AE14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4 (win rate 43%, cell T14 in CSV)
+- ((((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M10.4X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.5Xbugout-battery).G12.2 (win rate 43%, cell AD14 in CSV)
+- ((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3 (win rate 36%, cell V14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3.M11.1X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4).G12.1 (win rate 32%, cell AC14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4).G12.5 (win rate 32%, cell AG14 in CSV)
+- (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3.M12.4 (win rate 7%, cell AA14 in CSV)
+
+** Best firm: (((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3.M6.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3).G8.1.M9.3.M10.3X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M9.2X(((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4.M5.3X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((clockchain.M1.5.M2.5X((lockguardXclockchain).G1.2Xhply.M1.4).G2.1).G3.4X((lockguardXclockchain).G1.2Xangelry.M1.2).G2.4.M3.1).G4.1).G5.1).G6.1.M7.3.M8.2Xgenaix).G9.2).G10.3).G11.4.M12.2 (cell Y14 in CSV)
+
+--- BEGIN PROJECT ---
+## One-Sentence Summary
+A privacy-first platform that creates permanent, verifiable digital fingerprints of ethical sourcing events anchored to a public ledger, building an interactive ecosystem with educational tools for supply chain professionals and impact-focused organizations.
+
+## Problem
+The venture plans to address a digital landscape saturated with manipulation and duplication, where it is increasingly difficult to establish what is original or real. The central challenge is enabling people to credibly prove the authenticity and first possession of a digital record—such as a donation confirmation or an impact report—amid pervasive skepticism and the ease of generating false claims. A specific, related challenge the venture plans to explore is the inefficiency and lack of standardization in the verification process for corporate matching gift programs, where employees often face cumbersome manual steps to prove their donations, creating friction that reduces participation.
+
+## Target Users & Use Cases
+The venture plans to target both brands seeking to validate their supply chains and consumers looking for trustworthy ethical goods. A planned, specific target user group for initial outreach is procurement teams within consumer goods companies participating in sustainability certification or reporting programs, who need a streamlined way to discover vetted suppliers and provide indisputable proof of their ethical sourcing actions to qualify for certifications or meet regulatory requirements. The venture also plans to explore targeting non-governmental organizations (NGOs) and impact-focused philanthropic foundations as a distinct user group, who require independently verifiable, tamper-proof records of field-level sourcing events and material provenance to substantiate their impact reports to donors, auditors, and grant-making bodies.
+
+## Solution / Product Overview
+The venture plans to build a tool that creates a digital fingerprint of a user's charitable event data—such as a donation receipt or a nonprofit's impact milestone—and records proof of that fingerprint on a public, time-stamped ledger. The approach is proposed to be secure and privacy-preserving: users would not upload sensitive raw data; instead, a compact fingerprint would serve as durable evidence. This is positioned as a quiet safeguard for digital truth that donors, nonprofits, and verifying partners can rely on. To increase trust, the team plans to explore adding a decentralized, community-run witness network to provide a secondary, distributed layer of attestation to the ledger's timestamps. Furthermore, the venture plans to explore the development of a simple, open-source verification widget that any third-party website (like a nonprofit's blog or a corporate social responsibility page) could embed to allow visitors to independently verify the timestamp and authenticity of a claimed charitable fingerprint directly from that page.
+
+## Delivery Model
+The venture plans a lightweight, privacy-first implementation. It would not store sensitive donor financial details or the underlying event files. Instead, it would generate compact, anonymized fingerprints of that data for ledger anchoring. The goal is a secure and resource-conscious design that maintains long-term verifiability with minimal infrastructure. The team plans to build a clean public interface and supporting infrastructure to make the verification tools usable by its target audience.
+
+## Revenue Logic
+The venture plans to generate revenue through the sale of a subscription service to brands and suppliers for access to the verification ledger, advanced provenance reporting features, and supply chain management capabilities within the platform. An initial free trial period for the subscription service is proposed to onboard supplier and brand partners. The venture also plans to explore potential optional upgrades for enhanced connectivity or integration services for enterprise procurement or certification programs.
+
+## Distinctiveness
+The venture aims to differentiate itself by offering heirloom-quality goods that merge immediate, tangible material qualities with enduring digital proof of ethical sourcing. Its proposed system does not just provide a product; it aims to create a permanent, independently verifiable record that the materials were sourced according to specific ethical standards at a specific time, addressing the credibility problem of sustainability claims. This focus on verifiable provenance from a specific, ethical source is presented as a unique safeguard for both consumer trust and material truth. The venture plans to explore a further point of differentiation: structuring its public ledger not just as a tamper-proof record, but as a machine-readable, open registry of ethical sourcing standards. This would allow the fingerprints to be programmatically linked to the precise definitions of the ethical standards they claim to uphold, aiming to create a new layer of semantic clarity and auditability that is missing from current provenance claims. Furthermore, the venture plans to explore a distinctive approach by designing its ledger and verification tools to be purposefully protocol-agnostic, meaning it is engineered to interface seamlessly with multiple existing and emerging public ledger technologies and supply chain data formats, rather than locking the ecosystem into a single proprietary blockchain or system. This planned agnosticism is intended to future-proof the verification records and lower barriers to adoption for partners who may have existing technical infrastructures or preferences.
+--- END PROJECT ---
+
+** Difference from step 11
+
+The new version shifts its revenue model from a transaction-based fee to a subscription service for brands and suppliers. It expands its target users to explicitly include NGOs and philanthropic foundations, and introduces a strategic focus on being protocol-agnostic to ensure future compatibility. The one-sentence summary is also reframed to emphasize building an "interactive ecosystem with educational tools."
+
+** Lineage
+
+The mutation added a new, specific point of distinction: the plan now explicitly states an intent to design the ledger and verification tools to be **purposefully protocol-agnostic**. This means the system is engineered to work with multiple public ledger technologies and data formats, rather than being tied to a single proprietary system. This addition aims to future-proof the records and lower adoption barriers for partners with existing technical infrastructures.
+
+
+* Commit Round
+
+After the search steps, 43 unique plans that held an elite slot or won a step were each verified against the seed archive (30 matches per plan). The champion is the verification-best plan: clockchain.M1.5.M2.3.M3.2.M4.2 (30.0/30 wins).
+
+
+* Seed Tournament
+
+The evolved winner (clockchain.M1.5.M2.3.M3.2.M4.2) competed against all 15 original seeds (16 plans, 240 matches).
+
+** Ranking
+
+- clockchain.M1.5.M2.3.M3.2.M4.2 (win rate 100%) <- evolved winner
+- clockchain (win rate 77%)
+- rent-a-bee (win rate 70%)
+- lockguard (win rate 63%)
+- bugout-battery (win rate 63%)
+- genaix (win rate 63%)
+- hply (win rate 63%)
+- sale-finder (win rate 57%)
+- hooper (win rate 53%)
+- angelry (win rate 53%)
+- viaia (win rate 37%)
+- remotion-ai (win rate 37%)
+- lumivisor (win rate 30%)
+- voyagx (win rate 27%)
+- my-story (win rate 3%)
+- kebo (win rate 3%)
+
+** Result
+
+Evolved winner clockchain.M1.5.M2.3.M3.2.M4.2: rank 1 of 16, win rate 100%.

@@ -1,0 +1,317 @@
+{
+  "actual_usage": {
+    "input_tokens": 62325825,
+    "output_tokens": 18088048,
+    "provider_reported_cost_usd": 17.978671,
+    "token_price_estimate_usd": 18.535676,
+    "unique_live_calls": 32256
+  },
+  "api_base_url": "https://openrouter.ai/api/v1",
+  "artifacts": {
+    "call_cache": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+    "comparison": {},
+    "figures": "out/figs/2026-08-08_deepseekv32-evalrank15-full",
+    "global": {
+      "candidates": "out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv",
+      "csv": "out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv",
+      "fidelity_audits": "out/2026-08-08_deepseekv32-evalrank15-full-global-fidelity-audits.csv",
+      "log": "out/2026-08-08_deepseekv32-evalrank15-full-global-search.log",
+      "matches": "out/2026-08-08_deepseekv32-evalrank15-full-global-matches.csv",
+      "narrative": "out/2026-08-08_deepseekv32-evalrank15-full-global-search-narrative.txt"
+    },
+    "local": {
+      "candidates": "out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv",
+      "csv": "out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv",
+      "fidelity_audits": "out/2026-08-08_deepseekv32-evalrank15-full-local-fidelity-audits.csv",
+      "log": "out/2026-08-08_deepseekv32-evalrank15-full-local-search.log",
+      "matches": "out/2026-08-08_deepseekv32-evalrank15-full-local-matches.csv",
+      "narrative": "out/2026-08-08_deepseekv32-evalrank15-full-local-search-narrative.txt"
+    },
+    "output_directory": "out",
+    "quality": {
+      "log": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality.log",
+      "matches": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality-matches.csv",
+      "summary": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality.csv"
+    },
+    "report": {
+      "pdf": "out/reports/2026-08-08_deepseekv32-evalrank15-full.pdf",
+      "tex": "out/reports/2026-08-08_deepseekv32-evalrank15-full.tex"
+    },
+    "semantic_scores": {
+      "scores": "out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv"
+    }
+  },
+  "cache_ledger_usage": {
+    "input_tokens": 62325825,
+    "output_tokens": 18088048,
+    "provider_reported_cost_usd": 17.978671,
+    "token_price_estimate_usd": 18.535676,
+    "unique_live_calls": 32256
+  },
+  "comparison_run_id": null,
+  "completed_at": "2026-08-08T08:10:16",
+  "cost": {
+    "estimated_tokens_m": {
+      "input": 37.728,
+      "output": 12.16
+    },
+    "estimated_usd": 11.5966,
+    "price_snapshot_date": "2026-08-06",
+    "price_source": "https://openrouter.ai/deepseek/deepseek-v3.2/pricing",
+    "price_usd_per_million_tokens": {
+      "input": 0.2072,
+      "output": 0.3108
+    },
+    "scope": "complete pipeline"
+  },
+  "created_at": "2026-08-08T06:16:47",
+  "execution_mode": "live_openrouter",
+  "firm_ids": [
+    "clockchain",
+    "hply",
+    "angelry",
+    "lockguard",
+    "sale-finder",
+    "genaix",
+    "bugout-battery",
+    "rent-a-bee",
+    "hooper",
+    "remotion-ai",
+    "viaia",
+    "lumivisor",
+    "voyagx",
+    "kebo",
+    "my-story"
+  ],
+  "firm_set": "in/firm-set-15-evalrank.txt",
+  "git_commit": "db17e8c3c77e802f52cb169524979685e9e80bd2",
+  "inherited_usage": {},
+  "input_file": "in/projects.csv",
+  "input_hashes_sha256": {
+    "in/firm-set-15-evalrank.txt": "1b19467a49d052dce90f9c82879c5b1928e6fd6900f5a0537cb2fa72f27bb5e9",
+    "in/projects.csv": "f606fa22d5f7c7a21f7f274518b62e3ddc8af31e53cc76a67c9778b43263aab0",
+    "selected_firm_records": "4ba9cadd39daf276a37c7aa3cf5abe43f10024edd4370778d6712bc396f8cc63",
+    "src/global_search_prompts.py": "80796846237aea4b35e2d61d2905e778b6edd1270faabda10a1fbd15c720eb96",
+    "src/local_search_prompts.py": "6e02fb66962861fc3870f49778e444edaef37035b705b568270d2854af2af9de",
+    "src/semantic_novelty.py": "462532948c737a6df2d97a6f0dc347a4fa3c918028fc43ea9d6b9a25b2c5eeb2",
+    "src/semantic_scores.py": "17726f6c3e08da6e6de1a3067f835ff0b852c0972f0f890a39764590285cddcf"
+  },
+  "local_seed_arg": "first",
+  "local_seed_id": "clockchain",
+  "max_concurrent_calls": 40,
+  "model": "deepseek/deepseek-v3.2",
+  "model_settings": {
+    "crossover": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    },
+    "evaluator": {
+      "criteria": "1. Clarity of value proposition\n2. Market size and demand\n3. Feasibility and development plan\n4. Revenue model and sustainability\n5. Differentiation\n6. Impact and evidence plan\n7. Risk awareness and mitigation",
+      "design": "double round robin with prompt order reversed",
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    },
+    "fidelity_auditor": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.0
+    },
+    "generator": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    },
+    "max_response_tokens": 2000,
+    "mutator": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    },
+    "narrator": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    },
+    "reasoning_effort": "none",
+    "specialized_generator": {
+      "model": "deepseek/deepseek-v3.2",
+      "temperature": 0.5
+    }
+  },
+  "population_design": {
+    "crossover_children": 5,
+    "crossover_first_parent": "rank-proportional draw from top ten combined ranks",
+    "crossover_second_parent": "most semantically distant eligible plan from the top-ten pool or fixed original-seed archive",
+    "elites": 5,
+    "mutants": 5,
+    "mutation_rule": "one randomly selected theory-of-value component",
+    "novelty_weight": 0.5,
+    "quality_weight": 0.5,
+    "selection_pool_fraction": 0.6666666666666666,
+    "selection_rule": "average of quality and novelty percentile ranks",
+    "size": 15
+  },
+  "prompts": {
+    "crossover": "You are an expert startup strategist. Here are two crowdfunding project descriptions:\n\n--- PARENT A ---\n{plan_a}\n--- END PARENT A ---\n\n--- PARENT B ---\n{plan_b}\n--- END PARENT B ---\n\nCreate a NEW crowdfunding project by RECOMBINING the two parents at the level of their six theory-of-value components: problem, customer, solution, delivery_model, revenue_logic, distinctiveness.\n\nRecombination rules:\n1. For each of the six components, choose exactly ONE parent as its source. Take at least two components from each parent. Use these criteria to decide which parent supplies the stronger version of each component:\n{criteria}\n2. Carry each chosen component's substantive DESIGN over faithfully: its approach, mechanism, target, framing, and reasoning. But the child is a brand-new venture proposal with no history of its own: do NOT carry claims of existing traction, customers, users, prototypes, development or launch status, production timelines, testimonials, partners, awards, or any other accomplished evidence from either parent. Where a source component's strength rests on such evidence, re-express the underlying idea as an explicitly proposed plan or target for the new venture (for example, \"the venture plans a modular, tool-free-replacement architecture\" rather than \"each module can be replaced at home without tools\").\n3. Rewrite only the connective tissue -- the one-sentence summary and minimal transitional phrasing -- so the recombined description reads as ONE coherent new venture built from those components, approximately 500 words, not a patchwork.\n4. Keep the source plans' Markdown headings so the six components remain machine-readable. The child must not be a restatement of either parent.\n\nTreat the parents as the complete factual record and obey these rules:\n{fidelity_rules}\n\nEvery statement about evidence, validation, partnerships, or performance in the child must be framed as proposed, planned, or to-be-tested -- never as an accomplishment inherited from a parent.\n\nRespond with a JSON object: {{\"component_map\": {{\"problem\": \"A\" or \"B\", \"customer\": \"A\" or \"B\", \"solution\": \"A\" or \"B\", \"delivery_model\": \"A\" or \"B\", \"revenue_logic\": \"A\" or \"B\", \"distinctiveness\": \"A\" or \"B\"}}, \"plan\": \"the new project description\"}}\nOutput only valid JSON, nothing else.",
+    "evaluator": "You are an expert venture capital analyst evaluating crowdfunding projects. Compare the two project descriptions below along these criteria:\n{criteria}\n\n--- PROJECT A ---\n{plan_a}\n--- END PROJECT A ---\n\n--- PROJECT B ---\n{plan_b}\n--- END PROJECT B ---\n\nFor each project, list its pros and cons as bullet points (use \"\u2022\" as the bullet marker), grounded in the criteria above. Do not reward unsupported specificity: claims of traction, partnerships, testimonials, completed development, or quantified evidence should improve a project's assessment only when they are genuine source facts. Then state which project wins overall and why.\n\nRespond with a JSON object: {{\"analysis\": \"your analysis here\", \"winner\": \"A\" or \"B\"}}\nOutput only valid JSON, nothing else.",
+    "factual_fidelity_rules": "Treat the supplied project description(s) as the complete factual record. You may propose new features, markets, revenue models, tests, partnerships, targets, projections, or plans only when they are explicitly framed as proposed, hypothetical, planned, or to be tested. Do not invent or imply existing traction, customers, users, sales, revenue, growth, pilots, tests, testimonials, partners, endorsements, certifications, awards, prototypes, development status, launch status, team credentials, dates, or quantified evidence. Do not convert a recommendation or aspiration into an accomplished fact. Preserve any factual claims that are carried forward from a source without strengthening them.",
+    "fidelity_auditor": "You are auditing factual fidelity in a generated crowdfunding venture concept.\n\n--- AUTHORIZED SOURCE MATERIAL ---\n{sources}\n--- END AUTHORIZED SOURCE MATERIAL ---\n\n--- GENERATED CANDIDATE ---\n{candidate}\n--- END GENERATED CANDIDATE ---\n\nApply this standard:\n{fidelity_rules}\n\nPass the candidate only if every statement about existing real-world evidence or status is supported by the authorized source material. New ideas are allowed when clearly framed as proposals, plans, targets, hypotheses, or future tests. Unsupported claims include invented traction, customers, users, sales, revenue, metrics, pilots, tests, testimonials, partners, endorsements, certifications, awards, prototypes, development or launch status, team credentials, dates, and quantified evidence.\n\nApply the tense distinction literally. Specificity does not turn a future proposal into an existing fact. For example, \"we plan to test with 50 participants,\" \"we propose tracking six-month repeat donations,\" and \"a future pilot would target three partners\" are allowed new ideas even when those targets are absent from the source. Reject only when the candidate states or implies that such evidence, activity, status, or relationship already exists. Do not reject a candidate merely because a proposed plan is new, detailed, or quantified. When every addition is explicitly prospective, the candidate must pass.\n\nDistinguish the venture's proposed concept from claims of accomplished evidence. A crowdfunding description's account of what the product or service is, does, or would offer -- its features, architecture, target users, pricing, or positioning -- is the proposal itself, even when written in present tense, and may legitimately be new relative to the sources, including a concept assembled from components of multiple source projects. Do not reject concept descriptions for being absent from the sources. Reject only assertions of existing real-world accomplishments or status -- built prototypes, completed production, met shipping dates, current users, customers, revenue, testimonials, partnerships, awards, or measured results -- that the sources do not support.\n\nRespond with a JSON object: {{\"passed\": true or false, \"unsupported_claims\": [\"exact or concise claim\", ...], \"analysis\": \"brief explanation\"}}\nOutput only valid JSON, nothing else.",
+    "generator": "You are an expert startup advisor. Below is a crowdfunding project description:\n\n--- BEGIN PROJECT ---\n{plan}\n--- END PROJECT ---\n\nEvaluate this project along these dimensions:\n{criteria}\n\nSuggest exactly {num_ideas} concrete, actionable improvement ideas that would make this project more compelling to potential backers. Each idea should propose a *small, targeted change* (not a complete rewrite). Suggestions must obey these rules:\n{fidelity_rules}\n\nRespond with a JSON object: {{\"ideas\": [\"idea 1\", \"idea 2\", ...]}}\nOutput only valid JSON, nothing else.",
+    "mutator": "You are an expert startup advisor. Here is a crowdfunding project description:\n\n--- BEGIN PROJECT ---\n{plan}\n--- END PROJECT ---\n\nThe search algorithm selected this theory-of-value component for mutation:\n{component}: {component_guidance}\n\nMake one substantive change to that component only. Preserve the other five components and all source-grounded facts as closely as possible. Keep the existing Markdown headings so that the components remain machine-readable.\n\nRewrite the project description incorporating only that one improvement. The updated description should be approximately 500 words and must obey these rules:\n{fidelity_rules}\n\nRespond with a JSON object: {{\"component\": \"{component}\", \"plan\": \"rewritten project description\"}}\nOutput only valid JSON, nothing else.",
+    "schema_version": "analysis-06-recombination-v1",
+    "specialized_generator": "You are an expert startup copywriter. Below is a crowdfunding project description followed by one specific improvement idea.\n\n--- BEGIN PROJECT ---\n{plan}\n--- END PROJECT ---\n\n--- IMPROVEMENT IDEA ---\n{idea}\n--- END IDEA ---\n\nRewrite the project description incorporating the improvement idea above. Keep the overall structure and tone, but integrate the improvement naturally. The updated description should be approximately 500 words and must obey these rules:\n{fidelity_rules}\n\nRespond with a JSON object: {{\"plan\": \"updated project description\", \"evidence_notes\": \"brief note identifying any proposed or source-supported claims\"}}\nOutput only valid JSON, nothing else."
+  },
+  "provider": "OpenRouter",
+  "quality_calibration": "seed-benchmark",
+  "quality_scope": "all-points",
+  "random_seed": 42,
+  "run_id": "2026-08-08_deepseekv32-evalrank15-full",
+  "run_kind": "full",
+  "schema_version": 1,
+  "semantic_novelty": {
+    "backend": "sentence-transformers",
+    "components": [
+      "problem",
+      "customer",
+      "solution",
+      "delivery_model",
+      "revenue_logic",
+      "distinctiveness"
+    ],
+    "construct": "mean component-wise cosine distance from the nearest original seed",
+    "device": "cpu",
+    "model": "BAAI/bge-m3",
+    "revision": "5617a9f61b028005a4858fdac845db406aefb181"
+  },
+  "stages": [
+    {
+      "command": "python src/global_search.py --firm-set in/firm-set-15-evalrank.txt --preset 15 --model deepseek/deepseek-v3.2 --steps 12 --input-file in/projects.csv --run-prefix 2026-08-08_deepseekv32-evalrank15-full --output-dir out",
+      "elapsed_minutes": 57.59,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "candidates": "out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv",
+        "csv": "out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv",
+        "fidelity_audits": "out/2026-08-08_deepseekv32-evalrank15-full-global-fidelity-audits.csv",
+        "log": "out/2026-08-08_deepseekv32-evalrank15-full-global-search.log",
+        "matches": "out/2026-08-08_deepseekv32-evalrank15-full-global-matches.csv",
+        "narrative": "out/2026-08-08_deepseekv32-evalrank15-full-global-search-narrative.txt"
+      },
+      "finished_at": "2026-08-08T07:14:22",
+      "name": "global-search",
+      "returncode": 0,
+      "started_at": "2026-08-08T06:16:47",
+      "status": "completed"
+    },
+    {
+      "command": "python src/local_search.py --seed-id clockchain --model deepseek/deepseek-v3.2 --steps 12 --input-file in/projects.csv --run-prefix 2026-08-08_deepseekv32-evalrank15-full --output-dir out",
+      "elapsed_minutes": 11.13,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "candidates": "out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv",
+        "csv": "out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv",
+        "fidelity_audits": "out/2026-08-08_deepseekv32-evalrank15-full-local-fidelity-audits.csv",
+        "log": "out/2026-08-08_deepseekv32-evalrank15-full-local-search.log",
+        "matches": "out/2026-08-08_deepseekv32-evalrank15-full-local-matches.csv",
+        "narrative": "out/2026-08-08_deepseekv32-evalrank15-full-local-search-narrative.txt"
+      },
+      "finished_at": "2026-08-08T07:25:30",
+      "name": "local-search",
+      "returncode": 0,
+      "started_at": "2026-08-08T07:14:22",
+      "status": "completed"
+    },
+    {
+      "command": "python src/common_quality.py --local-csv out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv --global-csv out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv --firm-set in/firm-set-15-evalrank.txt --model deepseek/deepseek-v3.2 --run-prefix 2026-08-08_deepseekv32-evalrank15-full --input-file in/projects.csv --output-dir out --scope all-points",
+      "elapsed_minutes": 38.62,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "log": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality.log",
+        "matches": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality-matches.csv",
+        "summary": "out/2026-08-08_deepseekv32-evalrank15-full-common-quality.csv"
+      },
+      "finished_at": "2026-08-08T08:04:07",
+      "name": "common-quality",
+      "returncode": 0,
+      "started_at": "2026-08-08T07:25:30",
+      "status": "completed"
+    },
+    {
+      "command": "python src/semantic_scores.py --input-file in/projects.csv --firm-set in/firm-set-15-evalrank.txt --candidate-csv out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv --candidate-csv out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv --output out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv",
+      "elapsed_minutes": 6.02,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "scores": "out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv"
+      },
+      "finished_at": "2026-08-08T08:10:08",
+      "name": "semantic-scores",
+      "returncode": 0,
+      "started_at": "2026-08-08T08:04:08",
+      "status": "completed"
+    },
+    {
+      "command": "Rscript src/analysis.R --input-file in/projects.csv --firm-set in/firm-set-15-evalrank.txt --out-dir out/figs/2026-08-08_deepseekv32-evalrank15-full --local-candidates out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv --global-candidates out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv --semantic-file out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv --quality-file out/2026-08-08_deepseekv32-evalrank15-full-common-quality.csv out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv",
+      "elapsed_minutes": 0.11,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "comparable_quality": "out/figs/2026-08-08_deepseekv32-evalrank15-full/comparable-quality.pdf",
+        "global_design_comparison": "out/figs/2026-08-08_deepseekv32-evalrank15-full/global-design-comparison.pdf",
+        "global_search_lineage": "out/figs/2026-08-08_deepseekv32-evalrank15-full/global-search-lineage.pdf",
+        "lineage_collapse": "out/figs/2026-08-08_deepseekv32-evalrank15-full/lineage-collapse.pdf",
+        "local_search_story": "out/figs/2026-08-08_deepseekv32-evalrank15-full/local-search-story.tex",
+        "metadata": "out/figs/2026-08-08_deepseekv32-evalrank15-full/figure-metadata.tex",
+        "novelty_quality": "out/figs/2026-08-08_deepseekv32-evalrank15-full/novelty-quality.pdf",
+        "plan_landscape": "out/figs/2026-08-08_deepseekv32-evalrank15-full/plan-landscape.pdf",
+        "search_architectures": "out/figs/2026-08-08_deepseekv32-evalrank15-full/search-architectures.pdf",
+        "search_behavior": "out/figs/2026-08-08_deepseekv32-evalrank15-full/search-behavior.pdf",
+        "search_reach_payoff": "out/figs/2026-08-08_deepseekv32-evalrank15-full/search-reach-payoff.pdf",
+        "search_trajectories": "out/figs/2026-08-08_deepseekv32-evalrank15-full/search-trajectories.pdf",
+        "seed_tournaments": "out/figs/2026-08-08_deepseekv32-evalrank15-full/seed-tournaments.pdf",
+        "summary": "out/figs/2026-08-08_deepseekv32-evalrank15-full/analysis-summary.csv",
+        "winner_component_lineage": "out/figs/2026-08-08_deepseekv32-evalrank15-full/winner-component-lineage.pdf",
+        "winner_genealogy": "out/figs/2026-08-08_deepseekv32-evalrank15-full/winner-genealogy.pdf"
+      },
+      "finished_at": "2026-08-08T08:10:15",
+      "name": "analysis",
+      "returncode": 0,
+      "started_at": "2026-08-08T08:10:09",
+      "status": "completed"
+    },
+    {
+      "command": "python src/build_report.py --figure-dir out/figs/2026-08-08_deepseekv32-evalrank15-full --local-csv out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv --global-csv out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv --local-candidates out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv --global-candidates out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv --local-matches out/2026-08-08_deepseekv32-evalrank15-full-local-matches.csv --global-matches out/2026-08-08_deepseekv32-evalrank15-full-global-matches.csv --local-audits out/2026-08-08_deepseekv32-evalrank15-full-local-fidelity-audits.csv --global-audits out/2026-08-08_deepseekv32-evalrank15-full-global-fidelity-audits.csv --semantic-csv out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv --analysis-summary out/figs/2026-08-08_deepseekv32-evalrank15-full/analysis-summary.csv --manifest out/2026-08-08_deepseekv32-evalrank15-full-manifest.json --input-file in/projects.csv --firm-set in/firm-set-15-evalrank.txt --local-seed clockchain --model deepseek/deepseek-v3.2 --run-id 2026-08-08_deepseekv32-evalrank15-full --regenerate-command 'Rscript src/analysis.R --input-file in/projects.csv --firm-set in/firm-set-15-evalrank.txt --out-dir out/figs/2026-08-08_deepseekv32-evalrank15-full --local-candidates out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv --global-candidates out/2026-08-08_deepseekv32-evalrank15-full-global-candidates.csv --semantic-file out/2026-08-08_deepseekv32-evalrank15-full-semantic-scores.csv --quality-file out/2026-08-08_deepseekv32-evalrank15-full-common-quality.csv out/2026-08-08_deepseekv32-evalrank15-full-local-search.csv out/2026-08-08_deepseekv32-evalrank15-full-global-search.csv' --label 2026-08-08_deepseekv32-evalrank15-full --output-dir out/reports --output-stem 2026-08-08_deepseekv32-evalrank15-full --common-quality-csv out/2026-08-08_deepseekv32-evalrank15-full-common-quality.csv",
+      "elapsed_minutes": 0.02,
+      "environment": {
+        "AI_ENTREP_CALL_CACHE": "out/2026-08-08_deepseekv32-evalrank15-full-call-cache.sqlite3",
+        "AI_ENTREP_MAX_CONCURRENT_CALLS": "40",
+        "PYTHONDONTWRITEBYTECODE": "1"
+      },
+      "expected_outputs": {
+        "pdf": "out/reports/2026-08-08_deepseekv32-evalrank15-full.pdf",
+        "tex": "out/reports/2026-08-08_deepseekv32-evalrank15-full.tex"
+      },
+      "finished_at": "2026-08-08T08:10:16",
+      "name": "report",
+      "returncode": 0,
+      "started_at": "2026-08-08T08:10:15",
+      "status": "completed"
+    }
+  ],
+  "status": "completed",
+  "steps": 12,
+  "working_directory": "<repository>"
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "task_id": "4a499248c7b00637433407b9",
+  "attempt": 1,
+  "requested_at_utc": "2026-08-14T22:17:59+00:00",
+  "elapsed_seconds": 34.611917356960475,
+  "request": {
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "messages": [
+      {
+        "role": "user",
+        "content": "You are an expert venture capital analyst evaluating crowdfunding projects. Compare the two project descriptions below along these criteria:\n1. Clarity of value proposition\n2. Market size and demand\n3. Feasibility and development plan\n4. Revenue model and sustainability\n5. Differentiation\n6. Impact and evidence plan\n7. Risk awareness and mitigation\n\n--- PROJECT A ---\n## One-Sentence Summary\n\nA mobile app that uses AI-powered video analysis to deliver sprint coaching feedback anytime, helping athletes improve form while enabling coaches and parents to track progress.\n\n## Problem\n\nThe creators describe a consistent gap in sprint training: athletes often practice without timely feedback, while coaches lack bandwidth to analyze every block start or sprint repetition---especially when juggling other jobs or when athletes are traveling or on school breaks. This leaves athletes without guidance to progress safely and effectively when direct coaching isn't available.\n\n## Solution / Product Overview\n\nThe product is presented as \"a sprint coach in your pocket.\" It analyzes user-submitted sprint videos with AI to provide actionable feedback at any time. The aim is to let athletes see what's happening in their sprints, help coaches extend their impact without slowing practice, and assure parents that training is progressing safely.\n\n## Key Features & Capabilities\n\n-   AI-powered video analysis of sprints.\n\n-   Feedback on block starts.\n\n-   Analysis of shin and torso angles.\n\n-   Insights into max-velocity mechanics.\n\n-   Positioning as a tool to complement---not replace---human coaching.\n\n## Target Users & Use Cases\n\nThe campaign calls out athletes who train alone or while traveling, coaches seeking scalable analysis during practice, and parents looking for confidence in safe, continuous improvement.\n\n## Development Status\n\nThe team states it has a working demo. Funds are intended to \"complete and polish\" the app into a user-ready tool, with a launch planned for the first wave of athletes, coaches, and parents.\n\n## Roadmap & Delivery Plan\n\nPlanned milestones include: finalizing the app, building specified analysis features (block starts, angle analysis, max-velocity mechanics), partnering with athletes/coaches/influencers to spread the word, and launching to an initial user group. The estimated delivery is December 2025, with a contingency that delivery could shift slightly into January 2026. If timelines shift, the team commits to immediate notifications and monthly progress updates during development.\n\n## Why Crowdfunding / Use of Funds\n\nMost funds are allocated to app development, with additional support for launch preparation and marketing. The team notes a buffer for unexpected costs to keep development the top priority.\n\n## Risks & Challenges\n\nThe team cites typical software development risks such as potential delays or technical issues, mitigated by a scoped plan and monthly updates. Because rewards are mostly digital (codes or access), fulfillment risk is described as low, though minor delays in distributing access could occur. A health and wellness disclaimer clarifies that the project is not a substitute for medical treatment or diagnosis.\n\n## Team & Partnerships\n\nThe effort is led by a sprint coach (\"the founders\"). The team plans to collaborate with athletes, coaches, and influencers to expand reach.\n\n## What's Included\n\nBackers receive primarily digital rewards, such as access codes.\n\n## Technical Details\n\nThe campaign labels the technology as patent pending and repeatedly emphasizes AI-based video analysis for sprint mechanics. No device, OS, or hardware specs are provided.\n\n## Support & Post-Launch Plans\n\nThe team promises ongoing updates during development and indicates that improvements will be delivered through the app over time.\n--- END PROJECT A ---\n\n--- PROJECT B ---\n## One-Sentence Summary\n\nA neurodivergent-designed mobile companion that combines guided journaling, stress-aware prompts, optional biofeedback, and short regulation practices to help users gain emotional clarity and reduce overwhelm.\n\n## Problem\n\nThe creators describe a common cycle where unprocessed thoughts, emotions, and sensory overload escalate into stress. They argue people need practical, privacy-respecting tools that help them \"tell the truth\" about their current state and act before stress snowballs, emphasizing a compassionate, trauma-aware approach.\n\n## Solution / Product Overview\n\nThe product is a daily \"emotion companion\" for iOS and Android built around three modules: AI-guided journaling, a mood/patterns dashboard that can align reflections with phone/watch signals (opt-in), and a curated library of meditations and binaural soundscapes. Stress-aware nudges provide timely suggestions when signs of overwhelm rise.\n\n## Key Features & Capabilities\n\n-   **Inventory check-in:** Quick body/mood/context scan focused on the present moment.\n\n-   **Journal modes:** Free-form entries, guided prompts, and a deeper \"Memoir\" mode.\n\n-   **Regulation tools:** 2--5 minute practices, including breathing and curated soundscapes (binaural beats).\n\n-   **Stress-aware alerts:** Gentle prompts with context-specific suggestions.\n\n-   **Optional biofeedback:** User-controlled connections to phone/watch signals such as heart rate and sleep; the product is not therapy or a medical device.\n\n-   **Privacy controls:** Privacy-first stance with data export/delete options.\n\n## Target Users & Use Cases\n\nPositioned for people seeking calm and clarity amid sensory and emotional overload, with explicit emphasis on a neurodivergent-designed, research-aware toolset to support daily reflection and self-regulation.\n\n## Development Status\n\nThe campaign funds the final engineering, design, hosting, and sound licensing to complete and launch the app. A backers' pilot (\"Emotions Lab\") precedes public release, with early access offered to supporters.\n\n## Roadmap & Delivery Plan\n\n-   **Phase 1 (MVP):** Journaling, stress-aware nudges, calming tools, and a freemium model; no external integrations.\n\n-   **Phase 2 (Proof of Concept):** Limited developer-mode integrations with select devices to demonstrate HRV/sleep/recovery loops, subject to partner terms/approvals.\n\n-   **Phase 3 (Scale):** Pursue broader API partnerships to unlock mass-market integrations; expand from freemium to premium and add therapist/enterprise packages. Planned timeline: **Alpha/TestFlight (Jan 2026)** → **Closed Beta (Feb--Mar 2026)** → **Public Launch (Apr 2026)**; merchandise shipping is slated for **Feb 2026**.\n\n## Why Crowdfunding / Use of Funds\n\nFunds will underwrite engineering, design, hosting, and sound licensing; the team seeks community co-creation through Alpha/Beta and the pilot program. A budget breakdown highlights categories such as making, taxes & fees, multiple/other, and fulfillment.\n\n## Risks & Challenges\n\nCited risks include development delays (e.g., app-store reviews and engineering timelines), content licensing dependencies (with backup tracks ready), merchandise shipping delays (managed via print-on-demand and a domestic fulfillment partner), and privacy/compliance (the app is not a medical device; users have data export/delete control).\n\n## Team & Partnerships\n\nThe project is led by the founders, who reference prior work in apparel and a neurodivergent advocacy initiative, and authorship of a book. Future integrations may involve third-party device and platform partners as roadmap targets, contingent on approvals.\n\n## What's Included\n\nSupporters are promised early access, a founder badge, six months of membership, invitations to the pilot program, in-app credits, and optional physical merchandise (a tee and a beanie).\n\n## Technical Details\n\nPlatforms include iOS and Android. Optional signals include heart rate and sleep; planned demonstrations mention HRV, sleep cycles, and recovery in later phases. The creators reiterate the product is not a medical device.\n\n## Support & Post-Launch Plans\n\nThe team commits to transparent milestones, privacy-first practices, and continued development through staged releases; future therapist/enterprise offerings are part of the scaling plan.\n--- END PROJECT B ---\n\nFor each project, list its pros and cons as bullet points (use \"•\" as the bullet marker), grounded in the criteria above. Do not reward unsupported specificity: claims of traction, partnerships, testimonials, completed development, or quantified evidence should improve a project's assessment only when they are genuine source facts. Then state which project wins overall and why.\n\nRespond with a JSON object: {\"analysis\": \"your analysis here\", \"winner\": \"A\" or \"B\"}\nOutput only valid JSON, nothing else."
+      }
+    ],
+    "temperature": 0.5,
+    "max_tokens": 2000,
+    "seed": 42,
+    "extra_body": {
+      "provider": {
+        "order": [
+          "DeepInfra"
+        ],
+        "allow_fallbacks": false
+      }
+    }
+  },
+  "response": {
+    "id": "gen-1786745844-ubEUzFglgpM4fmVNjVJa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "```json\n{\n  \"analysis\": {\n    \"Project A\": {\n      \"Clarity of value proposition\": [\n        \"• Clear problem statement: Lack of timely feedback and coaching for athletes.\",\n        \"• Clear solution: AI-powered video analysis for sprint coaching.\",\n        \"• Clear target users: Athletes, coaches, and parents.\"\n      ],\n      \"Market size and demand\": [\n        \"• Potentially large market: Athletes who train alone or travel, coaches, and parents.\",\n        \"• Demand is supported by the described problem of lack of continuous coaching.\"\n      ],\n      \"Feasibility and development plan\": [\n        \"• Working demo already exists, indicating progress.\",\n        \"• Detailed roadmap with specific milestones and delivery plan.\",\n        \"• Contingency plans for delays and monthly updates during development.\"\n      ],\n      \"Revenue model and sustainability\": [\n        \"• Primarily digital rewards, reducing fulfillment risk.\",\n        \"• Potential for subscription or premium features to generate ongoing revenue.\",\n        \"• No clear details on pricing or long-term revenue streams.\"\n      ],\n      \"Differentiation\": [\n        \"• Unique AI-powered video analysis for sprint coaching.\",\n        \"• Complements human coaching, positioning as a tool rather than a replacement.\"\n      ],\n      \"Impact and evidence plan\": [\n        \"• Focus on improving athlete performance and safety.\",\n        \"• No specific evidence or case studies provided to support the effectiveness.\"\n      ],\n      \"Risk awareness and mitigation\": [\n        \"• Acknowledgment of typical software development risks.\",\n        \"• Low fulfillment risk due to digital nature of rewards.\",\n        \"• Health and wellness disclaimer to manage expectations.\"\n      ]\n    },\n    \"Project B\": {\n      \"Clarity of value proposition\": [\n        \"• Clear problem statement: Unprocessed thoughts and emotions leading to stress.\",\n        \"• Clear solution: Neurodivergent-designed mobile companion with guided journaling and regulation tools.\",\n        \"• Clear target users: People seeking emotional clarity and stress reduction.\"\n      ],\n      \"Market size and demand\": [\n        \"• Potentially large market: Individuals dealing with stress and emotional overload.\",\n        \"• Emphasis on neurodivergent and trauma-aware design, which could attract a niche but passionate user base.\"\n      ],\n      \"Feasibility and development plan\": [\n        \"• Detailed development phases and milestones.\",\n        \"• Backers' pilot program for early user feedback and co-creation.\",\n        \"• Contingency plans for app-store reviews and content licensing.\"\n      ],\n      \"Revenue model and sustainability\": [\n        \"• Freemium model with plans to expand to premium and enterprise offerings.\",\n        \"• Potential for long-term revenue through subscription and partnerships.\",\n        \"• No explicit pricing or revenue projections provided.\"\n      ],\n      \"Differentiation\": [\n        \"• Neurodivergent-designed and trauma-aware approach.\",\n        \"• Privacy-first stance with data export/delete options.\",\n        \"• Optional biofeedback and integration with wearable devices.\"\n      ],\n      \"Impact and evidence plan\": [\n        \"• Focus on emotional clarity and stress reduction.\",\n        \"• Emphasis on compassionate and research-aware design.\",\n        \"• No specific evidence or case studies provided to support the effectiveness.\"\n      ],\n      \"Risk awareness and mitigation\": [\n        \"• Acknowledgment of development delays and content licensing dependencies.\",\n        \"• Management of merchandise shipping delays through print-on-demand and domestic fulfillment.\",\n        \"• Privacy and compliance considerations, including data control options.\"\n      ]\n    }\n  },\n  \"winner\": \"B\"\n}\n```",
+          "refusal": null,
+          "role": "assistant",
+          "annotations": null,
+          "audio": null,
+          "function_call": null,
+          "tool_calls": null,
+          "reasoning": null
+        },
+        "native_finish_reason": "stop"
+      }
+    ],
+    "created": 1786745844,
+    "model": "qwen/qwen-2.5-72b-instruct",
+    "object": "chat.completion",
+    "service_tier": null,
+    "system_fingerprint": null,
+    "usage": {
+      "completion_tokens": 721,
+      "prompt_tokens": 1727,
+      "total_tokens": 2448,
+      "completion_tokens_details": {
+        "accepted_prediction_tokens": null,
+        "audio_tokens": 0,
+        "reasoning_tokens": 0,
+        "rejected_prediction_tokens": null,
+        "image_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "audio_tokens": 0,
+        "cached_tokens": 0,
+        "cache_write_tokens": 0,
+        "video_tokens": 0
+      },
+      "cost": 0.00091012,
+      "is_byok": false,
+      "cost_details": {
+        "upstream_inference_cost": 0.00091012,
+        "upstream_inference_prompt_cost": 0.00062172,
+        "upstream_inference_completions_cost": 0.0002884
+      }
+    },
+    "provider": "DeepInfra"
+  }
+}

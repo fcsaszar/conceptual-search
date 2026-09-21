@@ -1,0 +1,20 @@
+{
+  "run_id": "2026-08-14-gemma3-4b-full",
+  "invocations": [
+    {
+      "started_at_utc": "2026-08-14T20:58:22+00:00",
+      "run_robustness_py_sha256": "cef42c7fcda773157e175f4c3eb3c5e9882f8452087ad2027614b2d17029f318",
+      "outcome": "Stopped safely after the original strict JSON parser exceeded its preset final-task failure budget."
+    },
+    {
+      "started_at_utc": "2026-08-14T21:03:58+00:00",
+      "run_robustness_py_sha256": "45527c2617023f67777f1f65aa75ddaa5f210cc6574c74c40c237aab9cd448f4",
+      "outcome": "Resumed after adding tested recovery of a single explicit winner field from otherwise malformed JSON; saved raw responses were reparsed before new calls."
+    }
+  ],
+  "shared_files": {
+    "prepare_inputs.py": "c1ba05a06c37b810c95cf30cd0effb5437063a071027ce42b443aeb401b62bcf",
+    "prompt.py": "41bb44a96e15582296fbaf4c81253f9e080d5c530f04b3c8823588de4d1d8bf4",
+    "analyze_results.py": "d548a29c631f8d536bbbddb59f829a88370b00d4e1b5f8c4315a4e9a17423004"
+  }
+}

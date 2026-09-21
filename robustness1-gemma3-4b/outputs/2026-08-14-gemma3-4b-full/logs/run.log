@@ -1,0 +1,116 @@
+2026-08-14T20:58:22+00:00 Prepared 3,510 tasks (3,510 in the full design); model=google/gemma-3-4b-it, concurrency=40.
+2026-08-14T20:58:38+00:00 progress completed=1/3,510 failed=0 attempts=1 parse_failures=0 api_failures=0 rate=3.7/min eta=937.6min cost=$0.0001
+2026-08-14T20:58:57+00:00 progress completed=50/3,510 failed=0 attempts=50 parse_failures=0 api_failures=0 rate=84.8/min eta=40.8min cost=$0.0072
+2026-08-14T20:59:21+00:00 progress completed=100/3,510 failed=0 attempts=102 parse_failures=2 api_failures=0 rate=102.1/min eta=33.4min cost=$0.0149
+2026-08-14T20:59:53+00:00 progress completed=150/3,510 failed=0 attempts=152 parse_failures=2 api_failures=0 rate=98.5/min eta=34.1min cost=$0.0219
+2026-08-14T21:00:28+00:00 progress completed=200/3,510 failed=0 attempts=204 parse_failures=4 api_failures=0 rate=95.6/min eta=34.6min cost=$0.0297
+2026-08-14T21:00:50+00:00 STOPPING: final task failure rate 0.012 exceeded budget; the run remains resumable.
+2026-08-14T21:00:51+00:00 progress completed=247/3,510 failed=3 attempts=275 parse_failures=28 api_failures=0 rate=100.7/min eta=32.4min cost=$0.0406
+2026-08-14T21:00:51+00:00 STOPPING: final task failure rate 0.012 exceeded budget; the run remains resumable.
+2026-08-14T21:00:51+00:00 STOPPING: final task failure rate 0.012 exceeded budget; the run remains resumable.
+2026-08-14T21:00:51+00:00 STOPPING: final task failure rate 0.016 exceeded budget; the run remains resumable.
+2026-08-14T21:00:52+00:00 STOPPING: final task failure rate 0.020 exceeded budget; the run remains resumable.
+2026-08-14T21:00:53+00:00 STOPPING: final task failure rate 0.020 exceeded budget; the run remains resumable.
+2026-08-14T21:00:53+00:00 STOPPING: final task failure rate 0.020 exceeded budget; the run remains resumable.
+2026-08-14T21:00:53+00:00 STOPPING: final task failure rate 0.020 exceeded budget; the run remains resumable.
+2026-08-14T21:00:53+00:00 STOPPING: final task failure rate 0.019 exceeded budget; the run remains resumable.
+2026-08-14T21:00:54+00:00 STOPPING: final task failure rate 0.023 exceeded budget; the run remains resumable.
+2026-08-14T21:00:54+00:00 STOPPING: final task failure rate 0.023 exceeded budget; the run remains resumable.
+2026-08-14T21:00:54+00:00 STOPPING: final task failure rate 0.023 exceeded budget; the run remains resumable.
+2026-08-14T21:00:56+00:00 STOPPING: final task failure rate 0.027 exceeded budget; the run remains resumable.
+2026-08-14T21:00:57+00:00 STOPPING: final task failure rate 0.031 exceeded budget; the run remains resumable.
+2026-08-14T21:00:57+00:00 STOPPING: final task failure rate 0.030 exceeded budget; the run remains resumable.
+2026-08-14T21:00:58+00:00 STOPPING: final task failure rate 0.034 exceeded budget; the run remains resumable.
+2026-08-14T21:00:58+00:00 STOPPING: final task failure rate 0.034 exceeded budget; the run remains resumable.
+2026-08-14T21:00:59+00:00 STOPPING: final task failure rate 0.034 exceeded budget; the run remains resumable.
+2026-08-14T21:01:00+00:00 STOPPING: final task failure rate 0.034 exceeded budget; the run remains resumable.
+2026-08-14T21:01:00+00:00 STOPPING: final task failure rate 0.034 exceeded budget; the run remains resumable.
+2026-08-14T21:01:00+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:00+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:00+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:01+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:01+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:01+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:02+00:00 STOPPING: final task failure rate 0.033 exceeded budget; the run remains resumable.
+2026-08-14T21:01:02+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:02+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:02+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:03+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:04+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:04+00:00 STOPPING: final task failure rate 0.036 exceeded budget; the run remains resumable.
+2026-08-14T21:01:04+00:00 STOPPING: final task failure rate 0.035 exceeded budget; the run remains resumable.
+2026-08-14T21:01:04+00:00 STOPPING: final task failure rate 0.035 exceeded budget; the run remains resumable.
+2026-08-14T21:01:05+00:00 STOPPING: final task failure rate 0.039 exceeded budget; the run remains resumable.
+2026-08-14T21:01:05+00:00 STOPPING: final task failure rate 0.039 exceeded budget; the run remains resumable.
+2026-08-14T21:01:06+00:00 STOPPING: final task failure rate 0.042 exceeded budget; the run remains resumable.
+2026-08-14T21:01:08+00:00 STOPPING: final task failure rate 0.045 exceeded budget; the run remains resumable.
+2026-08-14T21:01:12+00:00 STOPPING: final task failure rate 0.049 exceeded budget; the run remains resumable.
+2026-08-14T21:01:12+00:00 Run status=stopped_resumable; parsed=274/3,510; elapsed=2.8min; reported cost this invocation=$0.0496.
+2026-08-14T21:03:58+00:00 Prepared 3,510 tasks (3,510 in the full design); model=google/gemma-3-4b-it, concurrency=40.
+2026-08-14T21:03:58+00:00 progress completed=275/3,510 failed=0 attempts=0 parse_failures=0 api_failures=0 rate=35738.4/min eta=0.1min cost=$0.0000
+2026-08-14T21:04:30+00:00 progress completed=324/3,510 failed=0 attempts=36 parse_failures=0 api_failures=0 rate=93.9/min eta=33.9min cost=$0.0053
+2026-08-14T21:05:11+00:00 progress completed=374/3,510 failed=0 attempts=86 parse_failures=0 api_failures=0 rate=82.5/min eta=38.0min cost=$0.0127
+2026-08-14T21:05:35+00:00 progress completed=424/3,510 failed=0 attempts=136 parse_failures=0 api_failures=0 rate=93.3/min eta=33.1min cost=$0.0203
+2026-08-14T21:05:57+00:00 progress completed=474/3,510 failed=0 attempts=186 parse_failures=0 api_failures=0 rate=101.0/min eta=30.1min cost=$0.0274
+2026-08-14T21:06:16+00:00 progress completed=524/3,510 failed=0 attempts=236 parse_failures=0 api_failures=0 rate=108.7/min eta=27.5min cost=$0.0346
+2026-08-14T21:06:42+00:00 progress completed=574/3,510 failed=0 attempts=286 parse_failures=0 api_failures=0 rate=110.0/min eta=26.7min cost=$0.0421
+2026-08-14T21:07:00+00:00 progress completed=624/3,510 failed=0 attempts=336 parse_failures=0 api_failures=0 rate=115.5/min eta=25.0min cost=$0.0495
+2026-08-14T21:07:17+00:00 progress completed=674/3,510 failed=0 attempts=387 parse_failures=1 api_failures=0 rate=120.4/min eta=23.6min cost=$0.0570
+2026-08-14T21:07:40+00:00 progress completed=724/3,510 failed=0 attempts=437 parse_failures=1 api_failures=0 rate=121.5/min eta=22.9min cost=$0.0647
+2026-08-14T21:08:06+00:00 progress completed=774/3,510 failed=0 attempts=487 parse_failures=1 api_failures=0 rate=120.8/min eta=22.6min cost=$0.0722
+2026-08-14T21:08:38+00:00 progress completed=824/3,510 failed=0 attempts=537 parse_failures=1 api_failures=0 rate=117.8/min eta=22.8min cost=$0.0795
+2026-08-14T21:09:01+00:00 progress completed=874/3,510 failed=0 attempts=587 parse_failures=1 api_failures=0 rate=119.0/min eta=22.2min cost=$0.0871
+2026-08-14T21:09:21+00:00 progress completed=924/3,510 failed=0 attempts=639 parse_failures=3 api_failures=0 rate=120.9/min eta=21.4min cost=$0.0965
+2026-08-14T21:09:43+00:00 progress completed=974/3,510 failed=0 attempts=689 parse_failures=3 api_failures=0 rate=121.9/min eta=20.8min cost=$0.1056
+2026-08-14T21:10:03+00:00 progress completed=1,024/3,510 failed=0 attempts=739 parse_failures=3 api_failures=0 rate=123.2/min eta=20.2min cost=$0.1146
+2026-08-14T21:10:22+00:00 progress completed=1,074/3,510 failed=0 attempts=789 parse_failures=3 api_failures=0 rate=124.9/min eta=19.5min cost=$0.1234
+2026-08-14T21:10:49+00:00 progress completed=1,124/3,510 failed=0 attempts=839 parse_failures=3 api_failures=0 rate=124.3/min eta=19.2min cost=$0.1326
+2026-08-14T21:11:19+00:00 progress completed=1,174/3,510 failed=0 attempts=889 parse_failures=3 api_failures=0 rate=122.4/min eta=19.1min cost=$0.1422
+2026-08-14T21:11:53+00:00 progress completed=1,224/3,510 failed=0 attempts=939 parse_failures=3 api_failures=0 rate=120.0/min eta=19.0min cost=$0.1500
+2026-08-14T21:12:22+00:00 progress completed=1,274/3,510 failed=0 attempts=989 parse_failures=3 api_failures=0 rate=119.1/min eta=18.8min cost=$0.1581
+2026-08-14T21:12:46+00:00 progress completed=1,324/3,510 failed=0 attempts=1,039 parse_failures=3 api_failures=0 rate=119.3/min eta=18.3min cost=$0.1676
+2026-08-14T21:13:15+00:00 progress completed=1,374/3,510 failed=0 attempts=1,089 parse_failures=3 api_failures=0 rate=118.5/min eta=18.0min cost=$0.1770
+2026-08-14T21:13:43+00:00 progress completed=1,424/3,510 failed=0 attempts=1,141 parse_failures=5 api_failures=0 rate=118.0/min eta=17.7min cost=$0.1865
+2026-08-14T21:14:07+00:00 progress completed=1,474/3,510 failed=0 attempts=1,191 parse_failures=5 api_failures=0 rate=118.2/min eta=17.2min cost=$0.1959
+2026-08-14T21:14:30+00:00 progress completed=1,524/3,510 failed=0 attempts=1,241 parse_failures=5 api_failures=0 rate=118.7/min eta=16.7min cost=$0.2036
+2026-08-14T21:14:54+00:00 progress completed=1,574/3,510 failed=0 attempts=1,291 parse_failures=5 api_failures=0 rate=119.0/min eta=16.3min cost=$0.2121
+2026-08-14T21:15:15+00:00 progress completed=1,624/3,510 failed=0 attempts=1,341 parse_failures=5 api_failures=0 rate=119.7/min eta=15.8min cost=$0.2203
+2026-08-14T21:15:38+00:00 progress completed=1,674/3,510 failed=0 attempts=1,391 parse_failures=5 api_failures=0 rate=120.0/min eta=15.3min cost=$0.2282
+2026-08-14T21:15:58+00:00 progress completed=1,724/3,510 failed=0 attempts=1,441 parse_failures=5 api_failures=0 rate=120.8/min eta=14.8min cost=$0.2360
+2026-08-14T21:16:19+00:00 progress completed=1,774/3,510 failed=0 attempts=1,491 parse_failures=5 api_failures=0 rate=121.5/min eta=14.3min cost=$0.2435
+2026-08-14T21:16:42+00:00 progress completed=1,824/3,510 failed=0 attempts=1,541 parse_failures=5 api_failures=0 rate=121.8/min eta=13.8min cost=$0.2513
+2026-08-14T21:17:09+00:00 progress completed=1,874/3,510 failed=0 attempts=1,591 parse_failures=5 api_failures=0 rate=121.3/min eta=13.5min cost=$0.2604
+2026-08-14T21:17:32+00:00 progress completed=1,924/3,510 failed=0 attempts=1,641 parse_failures=5 api_failures=0 rate=121.6/min eta=13.0min cost=$0.2687
+2026-08-14T21:17:56+00:00 progress completed=1,974/3,510 failed=0 attempts=1,691 parse_failures=5 api_failures=0 rate=121.7/min eta=12.6min cost=$0.2775
+2026-08-14T21:18:24+00:00 progress completed=2,024/3,510 failed=0 attempts=1,741 parse_failures=5 api_failures=0 rate=121.3/min eta=12.3min cost=$0.2865
+2026-08-14T21:18:46+00:00 progress completed=2,074/3,510 failed=0 attempts=1,791 parse_failures=5 api_failures=0 rate=121.7/min eta=11.8min cost=$0.2939
+2026-08-14T21:19:12+00:00 progress completed=2,124/3,510 failed=0 attempts=1,841 parse_failures=5 api_failures=0 rate=121.5/min eta=11.4min cost=$0.3035
+2026-08-14T21:19:41+00:00 progress completed=2,174/3,510 failed=0 attempts=1,891 parse_failures=5 api_failures=0 rate=120.9/min eta=11.1min cost=$0.3125
+2026-08-14T21:20:08+00:00 progress completed=2,224/3,510 failed=0 attempts=1,941 parse_failures=5 api_failures=0 rate=120.6/min eta=10.7min cost=$0.3214
+2026-08-14T21:20:34+00:00 progress completed=2,274/3,510 failed=0 attempts=1,991 parse_failures=5 api_failures=0 rate=120.5/min eta=10.3min cost=$0.3305
+2026-08-14T21:20:57+00:00 progress completed=2,324/3,510 failed=0 attempts=2,041 parse_failures=5 api_failures=0 rate=120.8/min eta=9.8min cost=$0.3396
+2026-08-14T21:21:24+00:00 progress completed=2,374/3,510 failed=0 attempts=2,091 parse_failures=5 api_failures=0 rate=120.4/min eta=9.4min cost=$0.3482
+2026-08-14T21:21:54+00:00 progress completed=2,424/3,510 failed=0 attempts=2,141 parse_failures=5 api_failures=0 rate=119.9/min eta=9.1min cost=$0.3557
+2026-08-14T21:22:30+00:00 progress completed=2,474/3,510 failed=0 attempts=2,191 parse_failures=5 api_failures=0 rate=118.7/min eta=8.7min cost=$0.3651
+2026-08-14T21:23:03+00:00 progress completed=2,524/3,510 failed=0 attempts=2,241 parse_failures=5 api_failures=0 rate=117.9/min eta=8.4min cost=$0.3744
+2026-08-14T21:23:32+00:00 progress completed=2,574/3,510 failed=0 attempts=2,291 parse_failures=5 api_failures=0 rate=117.5/min eta=8.0min cost=$0.3833
+2026-08-14T21:23:57+00:00 progress completed=2,624/3,510 failed=0 attempts=2,341 parse_failures=5 api_failures=0 rate=117.6/min eta=7.5min cost=$0.3919
+2026-08-14T21:24:19+00:00 progress completed=2,674/3,510 failed=0 attempts=2,391 parse_failures=5 api_failures=0 rate=117.9/min eta=7.1min cost=$0.3996
+2026-08-14T21:24:57+00:00 progress completed=2,724/3,510 failed=0 attempts=2,441 parse_failures=5 api_failures=0 rate=116.8/min eta=6.7min cost=$0.4072
+2026-08-14T21:25:26+00:00 progress completed=2,774/3,510 failed=0 attempts=2,491 parse_failures=5 api_failures=0 rate=116.5/min eta=6.3min cost=$0.4164
+2026-08-14T21:25:53+00:00 progress completed=2,824/3,510 failed=0 attempts=2,541 parse_failures=5 api_failures=0 rate=116.4/min eta=5.9min cost=$0.4246
+2026-08-14T21:26:21+00:00 progress completed=2,874/3,510 failed=0 attempts=2,591 parse_failures=5 api_failures=0 rate=116.2/min eta=5.5min cost=$0.4333
+2026-08-14T21:26:43+00:00 progress completed=2,924/3,510 failed=0 attempts=2,641 parse_failures=5 api_failures=0 rate=116.5/min eta=5.0min cost=$0.4425
+2026-08-14T21:27:04+00:00 progress completed=2,974/3,510 failed=0 attempts=2,691 parse_failures=5 api_failures=0 rate=116.9/min eta=4.6min cost=$0.4500
+2026-08-14T21:27:31+00:00 progress completed=3,024/3,510 failed=0 attempts=2,741 parse_failures=5 api_failures=0 rate=116.8/min eta=4.2min cost=$0.4571
+2026-08-14T21:27:55+00:00 progress completed=3,074/3,510 failed=0 attempts=2,791 parse_failures=5 api_failures=0 rate=116.9/min eta=3.7min cost=$0.4662
+2026-08-14T21:28:23+00:00 progress completed=3,124/3,510 failed=0 attempts=2,842 parse_failures=6 api_failures=0 rate=116.8/min eta=3.3min cost=$0.4754
+2026-08-14T21:28:50+00:00 progress completed=3,174/3,510 failed=0 attempts=2,893 parse_failures=7 api_failures=0 rate=116.6/min eta=2.9min cost=$0.4840
+2026-08-14T21:29:25+00:00 progress completed=3,224/3,510 failed=0 attempts=2,943 parse_failures=7 api_failures=0 rate=115.9/min eta=2.5min cost=$0.4922
+2026-08-14T21:30:02+00:00 progress completed=3,274/3,510 failed=0 attempts=2,993 parse_failures=7 api_failures=0 rate=115.1/min eta=2.1min cost=$0.5014
+2026-08-14T21:30:40+00:00 progress completed=3,324/3,510 failed=0 attempts=3,044 parse_failures=8 api_failures=0 rate=114.2/min eta=1.6min cost=$0.5118
+2026-08-14T21:31:07+00:00 progress completed=3,374/3,510 failed=0 attempts=3,095 parse_failures=8 api_failures=1 rate=114.2/min eta=1.2min cost=$0.5209
+2026-08-14T21:31:42+00:00 progress completed=3,424/3,510 failed=0 attempts=3,146 parse_failures=9 api_failures=1 rate=113.6/min eta=0.8min cost=$0.5298
+2026-08-14T21:32:03+00:00 progress completed=3,474/3,510 failed=0 attempts=3,196 parse_failures=9 api_failures=1 rate=114.0/min eta=0.3min cost=$0.5386
+2026-08-14T21:32:18+00:00 progress completed=3,510/3,510 failed=0 attempts=3,232 parse_failures=9 api_failures=1 rate=114.2/min eta=0.0min cost=$0.5451
+2026-08-14T21:32:18+00:00 Run status=complete; parsed=3,510/3,510; elapsed=28.3min; reported cost this invocation=$0.5451.

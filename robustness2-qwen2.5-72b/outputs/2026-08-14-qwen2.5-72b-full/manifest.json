@@ -1,0 +1,81 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "2026-08-14-qwen2.5-72b-full",
+  "started_at_utc": "2026-08-14T22:10:34+00:00",
+  "command": "run_robustness.py --run-id 2026-08-14-qwen2.5-72b-full --max-concurrency 40 --max-attempts 20 --max-consecutive-failures 40 --max-cost 8",
+  "working_directory": "<repository>/robustness2-qwen2.5-72b",
+  "git_commit_at_start": "ea55aa1df9aca167fe44ffd067e1b981b0a91da0",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.12.96+deb13-amd64-x86_64-with-glibc2.41",
+  "sample_manifest_sha256": "42fbc92dacaad3070c22f01792ddf3caa342a93ff8be4a35004b8782d2cacea0",
+  "concepts_csv_sha256": "201259ea7257e1cd2a4eb830f8cac3f031c0a8d39b377c01743c385df66c44c1",
+  "tasks_csv_sha256": "03a5bd6256dca088823f0321f1948772f3733d8778df3af4acbeb5d7c0da3976",
+  "prompt_sha256": "71ee142eb80cd93a4c68c0ea0a8bfd824dbefed8e6949e779114414604c76c46",
+  "model": {
+    "openrouter_id": "qwen/qwen-2.5-72b-instruct",
+    "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
+    "weights_revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+    "knowledge_cutoff": "2024-06-30",
+    "provider_endpoint": "https://openrouter.ai/api/v1",
+    "provider_route": "DeepInfra"
+  },
+  "inference": {
+    "temperature": 0.5,
+    "seed": 42,
+    "max_tokens": 2000,
+    "timeout_seconds": 120.0,
+    "max_concurrency": 40,
+    "max_attempts_per_task": 20,
+    "reasoning": "not requested",
+    "response_format": "prompt-requested JSON; no API response_format constraint"
+  },
+  "failure_budgets": {
+    "maximum_cost_usd": 8.0,
+    "maximum_final_task_failure_rate": 0.01,
+    "maximum_parse_failure_rate_after_100_attempts": 0.1,
+    "maximum_consecutive_final_task_failures": 40
+  },
+  "task_count": 3510,
+  "full_design_task_count": 3510,
+  "pilot_limit": 0,
+  "environment_variables_required": [
+    "OPENROUTER_API_KEY"
+  ],
+  "artifacts": {
+    "raw": "raw/<task-id>/attempt-NNN.json",
+    "parsed": "parsed/<task-id>.json",
+    "log": "logs/run.log"
+  },
+  "finished_at_utc": "2026-08-14T22:58:00+00:00",
+  "elapsed_seconds_this_invocation": 2845.927749581053,
+  "results": {
+    "completed_tasks": 3510,
+    "completed_this_invocation": 3510,
+    "failed_tasks_this_invocation": 0,
+    "attempts_this_invocation": 3512,
+    "api_failures_this_invocation": 0,
+    "parse_failures_this_invocation": 2,
+    "prompt_tokens_this_invocation": 7366709,
+    "completion_tokens_this_invocation": 2817333,
+    "reported_cost_usd_this_invocation": 3.777444319999999
+  },
+  "aggregate_run_totals": {
+    "scheduled_tasks": 3510,
+    "completed_tasks": 3510,
+    "provider_attempts": 3512,
+    "provider_api_errors": 0,
+    "parse_errors_recorded_before_recovery": 2,
+    "prompt_tokens": 7366709,
+    "completion_tokens": 2817333,
+    "reported_cost_usd": 3.777444319999999
+  },
+  "analysis": {
+    "completed_at_utc": "2026-08-14T22:59:35+00:00",
+    "script": "analyze_results.py",
+    "script_sha256": "f661ee20673a7619707fbbc9575509e04bf122d82e34d9e0ec5fff0cb7c0e8a1",
+    "scores": "scores.csv",
+    "results": "results.json",
+    "report": "report.md"
+  }
+}

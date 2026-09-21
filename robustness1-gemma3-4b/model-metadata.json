@@ -1,0 +1,21 @@
+{
+  "catalog_checked_on": "2026-08-14",
+  "openrouter": {
+    "id": "google/gemma-3-4b-it",
+    "canonical_slug": "google/gemma-3-4b-it",
+    "name": "Google: Gemma 3 4B",
+    "hugging_face_id": "google/gemma-3-4b-it",
+    "knowledge_cutoff": "2024-08-31",
+    "context_length": 131072,
+    "prompt_usd_per_token": 0.00000005,
+    "completion_usd_per_token": 0.0000001,
+    "expiration_date": null
+  },
+  "hugging_face": {
+    "id": "google/gemma-3-4b-it",
+    "revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "last_modified": "2025-03-21T20:20:53.000Z",
+    "library_name": "transformers"
+  },
+  "notes": "Catalog values were read from the public OpenRouter and Hugging Face APIs before the live run. OpenRouter may serve a quantized or otherwise provider-specific deployment; the raw response records preserve the actual route when reported."
+}

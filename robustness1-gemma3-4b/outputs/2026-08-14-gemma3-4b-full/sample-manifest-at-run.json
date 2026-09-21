@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-08-14T21:03:38+00:00",
+  "canonical_run": "2026-08-08_deepseekv32-evalrank15-full",
+  "sample": {
+    "slot_count": 75,
+    "unique_text_count": 74,
+    "group_counts": {
+      "original": 30,
+      "global_final": 15,
+      "polished": 15,
+      "local_only": 15
+    },
+    "unique_generated_texts": 44,
+    "duplicate_texts": {
+      "5bfa3529386b2a276f332d07f177a6e6904db348e7a3b50c7ddf1f0a6817e825": [
+        "global-final:g12-s04",
+        "global-final:g12-s05"
+      ]
+    },
+    "expected_paid_calls": {
+      "originals_double_round_robin": 870,
+      "generated_vs_originals_both_orders": 2640,
+      "total": 3510
+    }
+  },
+  "prompt_sha256": "71ee142eb80cd93a4c68c0ea0a8bfd824dbefed8e6949e779114414604c76c46",
+  "concepts_csv_sha256": "35345de6bfced1b2c82bdd11bf32533769359e5049dcc0f073d03a7559d9301b",
+  "sources": {
+    "in/projects.csv": "f606fa22d5f7c7a21f7f274518b62e3ddc8af31e53cc76a67c9778b43263aab0",
+    "in/firm-set-15-evalrank.txt": "1b19467a49d052dce90f9c82879c5b1928e6fd6900f5a0537cb2fa72f27bb5e9",
+    "out/2026-08-08_deepseekv32-evalrank15-full-polish-entrants.csv": "9ba255969ad48fd6ef3812d86c18aa26a8750cd8374790c8890036f60b5414a0",
+    "out/2026-08-08_deepseekv32-evalrank15-full-local-candidates.csv": "3166eab199df1cfa5e37306f7151c289d3a835f322466ebbaa60606bd2d76898",
+    "out/2026-08-08_deepseekv32-evalrank15-full-baseline15-entrants.csv": "51b26e9a2a17ad75f60e9c50c2979a8c63cd11aeb7aa5d5a717a7cb3bec7365d",
+    "analysis/evalrank-30.csv": "4ee18d8aa2b9f14526e7c0af5f211648f54a49ba549fd2f06e61d4f7025e564e",
+    "analysis/universe-champ-wr.json": "1eaa4938664fd86703972d2d1ec8349cc02e19bb7a3e6f6b27a5fdaf96e02d20",
+    "analysis/baseline15-wr.json": "c6f4ac283aa89c28a301590c4acb0f5d6a978684424428902a6e838765dff364",
+    "src/local_search_prompts.py": "6e02fb66962861fc3870f49778e444edaef37035b705b568270d2854af2af9de"
+  }
+}

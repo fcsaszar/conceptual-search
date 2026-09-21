@@ -1,0 +1,28 @@
+{
+  "catalog_checked_on": "2026-08-14",
+  "openrouter": {
+    "id": "qwen/qwen-2.5-72b-instruct",
+    "canonical_slug": "qwen/qwen-2.5-72b-instruct",
+    "name": "Qwen2.5 72B Instruct",
+    "hugging_face_id": "Qwen/Qwen2.5-72B-Instruct",
+    "knowledge_cutoff": "2024-06-30",
+    "context_length": 32768,
+    "maximum_completion_tokens": 16384,
+    "prompt_usd_per_token": 0.00000036,
+    "completion_usd_per_token": 0.0000004
+  },
+  "canonical_openrouter_run": {
+    "provider_route": "DeepInfra",
+    "route_frozen_after_pilot": true,
+    "run_id": "2026-08-14-qwen2.5-72b-full"
+  },
+  "hugging_face": {
+    "id": "Qwen/Qwen2.5-72B-Instruct",
+    "revision": "495f39366efef23836d0cfae4fbe635880d2be31",
+    "last_modified": "2025-01-12T02:07:38.000Z",
+    "library_name": "transformers",
+    "parameter_count_billions": 72.7,
+    "license": "qwen"
+  },
+  "notes": "Catalog values were read from the public OpenRouter and Hugging Face APIs before the live run. OpenRouter may serve a quantized or otherwise provider-specific deployment; the raw response records preserve the actual route."
+}

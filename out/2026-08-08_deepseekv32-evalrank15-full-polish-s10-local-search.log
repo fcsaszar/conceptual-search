@@ -1,0 +1,617 @@
+2026-08-08 08:11:23.619 Run prefix: 2026-08-08_deepseekv32-evalrank15-full-polish-s10
+2026-08-08 08:11:23.619 Artifacts: csv=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-search.csv, log=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-search.log, narrative=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-search-narrative.txt, candidates=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-candidates.csv, matches=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-matches.csv, audits=<repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-fidelity-audits.csv
+2026-08-08 08:11:23.620 Seed plan "g12-s10" loaded (5101 chars)
+2026-08-08 08:11:23.620 Config: steps=12, stuck=disabled, ideas=5, max_concurrent_calls=6
+2026-08-08 08:11:23.620 Expected # of calls: Generator (deepseek/deepseek-v3.2): 12, Specialized Generator (deepseek/deepseek-v3.2): 60, Fidelity Auditor (deepseek/deepseek-v3.2): 60, Evaluator (deepseek/deepseek-v3.2): 360, Narrator (deepseek/deepseek-v3.2): 12. Total: 504
+2026-08-08 08:11:23.620 ── Step 1/12 ───────────────────────────────────────
+2026-08-08 08:11:23.620 Generating ideas...
+2026-08-08 08:11:29.642   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (1031 chars; cell H2 in CSV)
+2026-08-08 08:11:29.642     idea 1: Define a specific, initial ethical standard (e.g., Fair Trade coffee, conflict-free minerals) to which the digital finge
+2026-08-08 08:11:29.642     idea 2: Propose a pilot test with a single, named type of procurement team (e.g., for a consumer goods company in the apparel se
+2026-08-08 08:11:29.642     idea 3: Clarify the proposed 'lightweight, privacy-first implementation' by specifying one example of the compact fingerprinting
+2026-08-08 08:11:29.642     idea 4: Add a proposed, simple metric for the initial free trial period (e.g., number of verifiable events or supplier profiles)
+2026-08-08 08:11:29.642     idea 5: Propose the development of a one-page visual explainer or diagram showing the planned data flow from a sourcing event to
+2026-08-08 08:11:29.642 Rewriting plan variations...
+2026-08-08 08:11:43.049   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (5876 chars; cell G2 in CSV)
+2026-08-08 08:11:43.163   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (5885 chars; cell C2 in CSV)
+2026-08-08 08:11:45.135   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (5791 chars; cell E2 in CSV)
+2026-08-08 08:11:45.202   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (5668 chars; cell D2 in CSV)
+2026-08-08 08:11:45.499   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (429 chars; cell G2 in CSV)
+2026-08-08 08:11:45.554   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (435 chars; cell C2 in CSV)
+2026-08-08 08:11:45.616   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (5713 chars; cell F2 in CSV)
+2026-08-08 08:11:47.159   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (333 chars; cell E2 in CSV)
+2026-08-08 08:11:48.227   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (677 chars; cell D2 in CSV)
+2026-08-08 08:11:48.596   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (679 chars; cell F2 in CSV)
+2026-08-08 08:11:48.596 Evaluating 6 plans (30 matches)...
+2026-08-08 08:11:53.616   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (1178 chars; cell AY2 in CSV)
+2026-08-08 08:11:55.617   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (1898 chars; cell AZ2 in CSV)
+2026-08-08 08:11:58.752   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (2805 chars; cell AV2 in CSV)
+2026-08-08 08:11:59.520   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (2542 chars; cell AX2 in CSV)
+2026-08-08 08:12:01.603   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (3844 chars; cell AW2 in CSV)
+2026-08-08 08:12:02.855   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (4505 chars; cell AT2 in CSV)
+2026-08-08 08:12:02.966   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (2536 chars; cell BA2 in CSV)
+2026-08-08 08:12:04.024   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (2353 chars; cell BB2 in CSV)
+2026-08-08 08:12:05.570   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (1733 chars; cell BC2 in CSV)
+2026-08-08 08:12:08.494   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (2518 chars; cell BE2 in CSV)
+2026-08-08 08:12:11.519   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (2824 chars; cell BF2 in CSV)
+2026-08-08 08:12:11.739   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (2283 chars; cell BH2 in CSV)
+2026-08-08 08:12:12.242   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (2386 chars; cell BG2 in CSV)
+2026-08-08 08:12:15.365   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (2954 chars; cell BI2 in CSV)
+2026-08-08 08:12:17.542   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (3284 chars; cell BJ2 in CSV)
+2026-08-08 08:12:18.212   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (2784 chars; cell BK2 in CSV)
+2026-08-08 08:12:19.679   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (2287 chars; cell BL2 in CSV)
+2026-08-08 08:12:23.096   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (2217 chars; cell BO2 in CSV)
+2026-08-08 08:12:23.567   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (3032 chars; cell BN2 in CSV)
+2026-08-08 08:12:25.766   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (4012 chars; cell BM2 in CSV)
+2026-08-08 08:12:27.144   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2354 chars; cell BQ2 in CSV)
+2026-08-08 08:12:27.567   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (2032 chars; cell BR2 in CSV)
+2026-08-08 08:12:29.673   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (3232 chars; cell BP2 in CSV)
+2026-08-08 08:12:32.102   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (2338 chars; cell BS2 in CSV)
+2026-08-08 08:12:33.037   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (2489 chars; cell BT2 in CSV)
+2026-08-08 08:12:33.993   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (2226 chars; cell BU2 in CSV)
+2026-08-08 08:12:34.342   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (1904 chars; cell BV2 in CSV)
+2026-08-08 08:12:36.926   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (2540 chars; cell BW2 in CSV)
+2026-08-08 08:12:36.927   win_rates=['10%', '100%', '10%', '60%', '40%', '80%']
+2026-08-08 08:12:36.927   ranks=[5, 1, 6, 3, 4, 2] (cells I2:N2 in CSV)
+2026-08-08 08:12:36.929   winner=plan_1 (cell C2 in CSV)
+2026-08-08 08:12:36.929 >> New incumbent: alt 1 (cell C2 in CSV; 5483 chars, "## One-Sentence Summary A priv ... rom current provenance claims.")
+2026-08-08 08:12:36.929 ── Step 2/12 ───────────────────────────────────────
+2026-08-08 08:12:36.929 Generating ideas...
+2026-08-08 08:12:40.690   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (840 chars; cell H3 in CSV)
+2026-08-08 08:12:40.690     idea 1: Define a specific, initial ethical standard (e.g., Fair Trade coffee) in the One-Sentence Summary to immediately ground 
+2026-08-08 08:12:40.690     idea 2: Propose a small-scale pilot test with a single procurement team from a consumer goods company to validate the workflow f
+2026-08-08 08:12:40.690     idea 3: Add a planned, simple API documentation page as a concrete deliverable to demonstrate how third-party developers could i
+2026-08-08 08:12:40.690     idea 4: Explore a specific, additional revenue stream by proposing a plan to test a pay-per-verification fee for NGOs needing to
+2026-08-08 08:12:40.690     idea 5: Plan to publish a clear, public roadmap outlining the phased exploration of the decentralized witness network and the ma
+2026-08-08 08:12:40.690 Rewriting plan variations...
+2026-08-08 08:12:53.209   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (5953 chars; cell D3 in CSV)
+2026-08-08 08:12:53.851   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (6023 chars; cell F3 in CSV)
+2026-08-08 08:12:53.902   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (6138 chars; cell E3 in CSV)
+2026-08-08 08:12:53.972   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (6197 chars; cell G3 in CSV)
+2026-08-08 08:12:54.387   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (5940 chars; cell C3 in CSV)
+2026-08-08 08:12:56.038   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (664 chars; cell D3 in CSV)
+2026-08-08 08:12:56.088   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (847 chars; cell G3 in CSV)
+2026-08-08 08:12:56.370   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (481 chars; cell E3 in CSV)
+2026-08-08 08:12:58.090   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (854 chars; cell F3 in CSV)
+2026-08-08 08:12:58.445   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (741 chars; cell C3 in CSV)
+2026-08-08 08:12:58.445 Evaluating 6 plans (30 matches)...
+2026-08-08 08:13:06.276   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (2146 chars; cell BA3 in CSV)
+2026-08-08 08:13:07.486   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (2838 chars; cell BB3 in CSV)
+2026-08-08 08:13:08.301   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (2761 chars; cell AV3 in CSV)
+2026-08-08 08:13:08.678   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (3130 chars; cell AY3 in CSV)
+2026-08-08 08:13:09.044   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (2975 chars; cell AT3 in CSV)
+2026-08-08 08:13:11.371   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (3523 chars; cell AZ3 in CSV)
+2026-08-08 08:13:17.065   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (2179 chars; cell BF3 in CSV)
+2026-08-08 08:13:17.298   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (2151 chars; cell BI3 in CSV)
+2026-08-08 08:13:18.884   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (3595 chars; cell BC3 in CSV)
+2026-08-08 08:13:19.234   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2650 chars; cell BJ3 in CSV)
+2026-08-08 08:13:19.879   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (3485 chars; cell BE3 in CSV)
+2026-08-08 08:13:26.924   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (2887 chars; cell BL3 in CSV)
+2026-08-08 08:13:27.261   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (1996 chars; cell BT3 in CSV)
+2026-08-08 08:13:27.475   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (4766 chars; cell BK3 in CSV)
+2026-08-08 08:13:29.814   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2809 chars; cell BQ3 in CSV)
+2026-08-08 08:13:32.967   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (4005 chars; cell BO3 in CSV)
+2026-08-08 08:13:33.149   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (4619 chars; cell BM3 in CSV)
+2026-08-08 08:13:38.596   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3041 chars; cell BV3 in CSV)
+2026-08-08 08:13:38.596   win_rates=['40%', '70%', '30%', '90%', '40%', '30%']
+2026-08-08 08:13:38.596   ranks=[3, 2, 5, 1, 4, 6] (cells I3:N3 in CSV)
+2026-08-08 08:13:38.599   winner=plan_3 (cell E3 in CSV)
+2026-08-08 08:13:38.599 >> New incumbent: alt 3 (cell E3 in CSV; 5712 chars, "## One-Sentence Summary A priv ... rom current provenance claims.")
+2026-08-08 08:13:38.599 ── Step 3/12 ───────────────────────────────────────
+2026-08-08 08:13:38.599 Generating ideas...
+2026-08-08 08:13:43.038   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (988 chars; cell H4 in CSV)
+2026-08-08 08:13:43.038     idea 1: Specify a single, concrete ethical standard (e.g., Fair Trade coffee) as the initial anchor for the digital fingerprinti
+2026-08-08 08:13:43.038     idea 2: Propose a targeted pilot test with a single procurement team from a consumer goods company to validate the streamlined s
+2026-08-08 08:13:43.038     idea 3: Add a planned, simple landing page or demo showcasing the proposed open-source verification widget in action on a simula
+2026-08-08 08:13:43.038     idea 4: Define a specific, limited-duration free trial period (e.g., 3 months) for the proposed subscription service to clarify 
+2026-08-08 08:13:43.038     idea 5: Propose the development of a one-page explainer document outlining how the proposed machine-readable ledger would link t
+2026-08-08 08:13:43.038 Rewriting plan variations...
+2026-08-08 08:13:56.919   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (6329 chars; cell G4 in CSV)
+2026-08-08 08:13:56.973   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (6039 chars; cell F4 in CSV)
+2026-08-08 08:13:57.739   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (6285 chars; cell C4 in CSV)
+2026-08-08 08:13:57.936   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (6236 chars; cell D4 in CSV)
+2026-08-08 08:13:58.382   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (6391 chars; cell E4 in CSV)
+2026-08-08 08:13:59.864   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (447 chars; cell F4 in CSV)
+2026-08-08 08:13:59.894   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (619 chars; cell G4 in CSV)
+2026-08-08 08:14:00.875   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (623 chars; cell D4 in CSV)
+2026-08-08 08:14:01.247   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (786 chars; cell C4 in CSV)
+2026-08-08 08:14:01.278   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (604 chars; cell E4 in CSV)
+2026-08-08 08:14:01.278 Evaluating 6 plans (30 matches)...
+2026-08-08 08:14:07.295   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (2286 chars; cell AY4 in CSV)
+2026-08-08 08:14:11.948   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (2749 chars; cell AX4 in CSV)
+2026-08-08 08:14:14.826   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (3818 chars; cell AT4 in CSV)
+2026-08-08 08:14:16.674   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (4114 chars; cell AW4 in CSV)
+2026-08-08 08:14:16.868   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (4002 chars; cell AV4 in CSV)
+2026-08-08 08:14:20.723   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (5016 chars; cell AZ4 in CSV)
+2026-08-08 08:14:21.861   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (3552 chars; cell BA4 in CSV)
+2026-08-08 08:14:23.549   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (3474 chars; cell BB4 in CSV)
+2026-08-08 08:14:25.490   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (4783 chars; cell BC4 in CSV)
+2026-08-08 08:14:31.398   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3921 chars; cell BF4 in CSV)
+2026-08-08 08:14:32.111   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3170 chars; cell BG4 in CSV)
+2026-08-08 08:14:33.158   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (2346 chars; cell BI4 in CSV)
+2026-08-08 08:14:33.663   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (3065 chars; cell BH4 in CSV)
+2026-08-08 08:14:35.197   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2731 chars; cell BJ4 in CSV)
+2026-08-08 08:14:35.958   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (5145 chars; cell BE4 in CSV)
+2026-08-08 08:14:41.773   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (2044 chars; cell BN4 in CSV)
+2026-08-08 08:14:42.182   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (2689 chars; cell BM4 in CSV)
+2026-08-08 08:14:43.992   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (3598 chars; cell BL4 in CSV)
+2026-08-08 08:14:44.805   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (3907 chars; cell BK4 in CSV)
+2026-08-08 08:14:44.894   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (2529 chars; cell BP4 in CSV)
+2026-08-08 08:14:49.042   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (4419 chars; cell BO4 in CSV)
+2026-08-08 08:14:52.824   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2894 chars; cell BQ4 in CSV)
+2026-08-08 08:14:54.161   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (2595 chars; cell BU4 in CSV)
+2026-08-08 08:14:54.348   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (3204 chars; cell BS4 in CSV)
+2026-08-08 08:14:58.365   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (4287 chars; cell BR4 in CSV)
+2026-08-08 08:14:58.431   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (1500 chars; cell BW4 in CSV)
+2026-08-08 08:15:00.021   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (4402 chars; cell BT4 in CSV)
+2026-08-08 08:15:01.460   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3994 chars; cell BV4 in CSV)
+2026-08-08 08:15:01.461   win_rates=['30%', '90%', '20%', '90%', '30%', '40%']
+2026-08-08 08:15:01.461   ranks=[4, 1, 6, 2, 5, 3] (cells I4:N4 in CSV)
+2026-08-08 08:15:01.466   winner=plan_1 (cell C4 in CSV)
+2026-08-08 08:15:01.466 >> New incumbent: alt 1 (cell C4 in CSV; 5756 chars, "## One-Sentence Summary A priv ... rom current provenance claims.")
+2026-08-08 08:15:01.466 ── Step 4/12 ───────────────────────────────────────
+2026-08-08 08:15:01.466 Generating ideas...
+2026-08-08 08:15:04.957   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (858 chars; cell H5 in CSV)
+2026-08-08 08:15:04.957     idea 1: Define a specific, initial ethical standard (e.g., 'Fair Trade coffee certified by Fairtrade International') in the One-
+2026-08-08 08:15:04.957     idea 2: Propose a pilot test with a single, named procurement team from a consumer goods company to validate the streamlined sup
+2026-08-08 08:15:04.957     idea 3: Plan to develop a mock-up of the open-source verification widget and the API documentation page as a concrete deliverabl
+2026-08-08 08:15:04.957     idea 4: Explore a tiered subscription model with a clear entry-level price point for small suppliers alongside the proposed ente
+2026-08-08 08:15:04.957     idea 5: Propose a partnership with a specific sustainability certification body (e.g., Fairtrade International, Rainforest Allia
+2026-08-08 08:15:04.958 Rewriting plan variations...
+2026-08-08 08:15:14.671   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (6472 chars; cell G5 in CSV)
+2026-08-08 08:15:18.256   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (690 chars; cell G5 in CSV)
+2026-08-08 08:15:18.371   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (6261 chars; cell C5 in CSV)
+2026-08-08 08:15:18.719   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (6381 chars; cell D5 in CSV)
+2026-08-08 08:15:20.659   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (550 chars; cell C5 in CSV)
+2026-08-08 08:15:21.673   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (635 chars; cell D5 in CSV)
+2026-08-08 08:15:23.386   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (6255 chars; cell E5 in CSV)
+2026-08-08 08:15:26.280   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (615 chars; cell E5 in CSV)
+2026-08-08 08:15:38.157   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (6554 chars; cell F5 in CSV)
+2026-08-08 08:15:40.976   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (610 chars; cell F5 in CSV)
+2026-08-08 08:15:40.976 Evaluating 6 plans (30 matches)...
+2026-08-08 08:15:47.295   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (2623 chars; cell AV5 in CSV)
+2026-08-08 08:15:49.779   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (3859 chars; cell AW5 in CSV)
+2026-08-08 08:15:49.952   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (3716 chars; cell AX5 in CSV)
+2026-08-08 08:15:51.313   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (4553 chars; cell BC5 in CSV)
+2026-08-08 08:15:51.535   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (4281 chars; cell BB5 in CSV)
+2026-08-08 08:15:52.597   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (4691 chars; cell BA5 in CSV)
+2026-08-08 08:15:52.598 JSON parse failed (attempt 1/5): Invalid control character at: line 1 column 3888 (char 3887)
+2026-08-08 08:15:55.885   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (1897 chars; cell BJ5 in CSV)
+2026-08-08 08:15:57.158   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3514 chars; cell BG5 in CSV)
+2026-08-08 08:15:57.555   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3747 chars; cell BF5 in CSV)
+2026-08-08 08:15:59.138   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (3540 chars; cell BI5 in CSV)
+2026-08-08 08:15:59.768   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (3356 chars; cell BK5 in CSV)
+2026-08-08 08:15:59.795   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (4756 chars; cell BH5 in CSV)
+2026-08-08 08:16:05.251   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (3375 chars; cell BN5 in CSV)
+2026-08-08 08:16:06.007   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (2532 chars; cell BO5 in CSV)
+2026-08-08 08:16:07.265   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (3900 chars; cell BM5 in CSV)
+2026-08-08 08:16:09.715   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (5333 chars; cell BL5 in CSV)
+2026-08-08 08:16:11.011   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (4051 chars; cell BQ5 in CSV)
+2026-08-08 08:16:11.055   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (3797 chars; cell BP5 in CSV)
+2026-08-08 08:16:11.583   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (1643 chars; cell BT5 in CSV)
+2026-08-08 08:16:14.332   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (3870 chars; cell BR5 in CSV)
+2026-08-08 08:16:15.777   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (4181 chars; cell BS5 in CSV)
+2026-08-08 08:16:24.612   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (5050 chars; cell BU5 in CSV)
+2026-08-08 08:16:35.244   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3816 chars; cell BV5 in CSV)
+2026-08-08 08:16:35.526   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 2) -> OK (3647 chars; cell BA5 in CSV)
+2026-08-08 08:16:35.924   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (3776 chars; cell BW5 in CSV)
+2026-08-08 08:16:35.925   win_rates=['20%', '20%', '20%', '80%', '60%', '100%']
+2026-08-08 08:16:35.925   ranks=[4, 5, 6, 2, 3, 1] (cells I5:N5 in CSV)
+2026-08-08 08:16:35.930   winner=plan_5 (cell G5 in CSV)
+2026-08-08 08:16:35.930 >> New incumbent: alt 5 (cell G5 in CSV; 6152 chars, "## One-Sentence Summary A priv ... distinctive registry function.")
+2026-08-08 08:16:35.930 ── Step 5/12 ───────────────────────────────────────
+2026-08-08 08:16:35.930 Generating ideas...
+2026-08-08 08:16:39.753   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (849 chars; cell H6 in CSV)
+2026-08-08 08:16:39.753     idea 1: Propose a pilot program with a single, named university to test the matching gift verification use case, focusing on str
+2026-08-08 08:16:39.753     idea 2: Plan to develop a minimal viable product (MVP) that fingerprints and verifies records for just one specific Fair Trade c
+2026-08-08 08:16:39.753     idea 3: Explore a partnership with a specific open-source software foundation to host and maintain the planned verification widg
+2026-08-08 08:16:39.753     idea 4: Propose a tiered subscription model with a clear, entry-level price point for small-scale suppliers or NGOs to access ba
+2026-08-08 08:16:39.753     idea 5: Plan to create a public roadmap document detailing the phased exploration of adding the proposed decentralized witness n
+2026-08-08 08:16:39.753 Rewriting plan variations...
+2026-08-08 08:16:53.391   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (6654 chars; cell D6 in CSV)
+2026-08-08 08:16:54.171   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (6713 chars; cell E6 in CSV)
+2026-08-08 08:16:54.298   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (6823 chars; cell G6 in CSV)
+2026-08-08 08:16:54.493   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (6742 chars; cell F6 in CSV)
+2026-08-08 08:16:54.583   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (6829 chars; cell C6 in CSV)
+2026-08-08 08:16:56.675   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (859 chars; cell D6 in CSV)
+2026-08-08 08:16:56.748   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (676 chars; cell E6 in CSV)
+2026-08-08 08:16:56.771   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (339 chars; cell F6 in CSV)
+2026-08-08 08:16:57.534   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (773 chars; cell G6 in CSV)
+2026-08-08 08:16:57.608   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (651 chars; cell C6 in CSV)
+2026-08-08 08:16:57.608 Evaluating 6 plans (30 matches)...
+2026-08-08 08:17:05.518   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (2763 chars; cell BB6 in CSV)
+2026-08-08 08:17:06.707   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (3421 chars; cell AX6 in CSV)
+2026-08-08 08:17:06.948   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (3706 chars; cell AV6 in CSV)
+2026-08-08 08:17:07.922   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (3905 chars; cell BC6 in CSV)
+2026-08-08 08:17:08.868   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (4664 chars; cell AW6 in CSV)
+2026-08-08 08:17:09.629   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (4963 chars; cell BA6 in CSV)
+2026-08-08 08:17:12.443   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (2092 chars; cell BH6 in CSV)
+2026-08-08 08:17:13.481   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3194 chars; cell BF6 in CSV)
+2026-08-08 08:17:15.125   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3562 chars; cell BG6 in CSV)
+2026-08-08 08:17:18.167   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (4007 chars; cell BI6 in CSV)
+2026-08-08 08:17:20.183   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (3093 chars; cell BL6 in CSV)
+2026-08-08 08:17:22.234   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (5072 chars; cell BK6 in CSV)
+2026-08-08 08:17:22.292   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (5308 chars; cell BJ6 in CSV)
+2026-08-08 08:17:23.955   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (4241 chars; cell BM6 in CSV)
+2026-08-08 08:17:28.230   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (5099 chars; cell BN6 in CSV)
+2026-08-08 08:17:29.446   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (3035 chars; cell BP6 in CSV)
+2026-08-08 08:17:31.992   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (4377 chars; cell BO6 in CSV)
+2026-08-08 08:17:33.354   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (3807 chars; cell BS6 in CSV)
+2026-08-08 08:17:34.232   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (4267 chars; cell BQ6 in CSV)
+2026-08-08 08:17:34.541   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (4613 chars; cell BR6 in CSV)
+2026-08-08 08:17:38.850   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (3636 chars; cell BU6 in CSV)
+2026-08-08 08:17:41.065   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3561 chars; cell BV6 in CSV)
+2026-08-08 08:17:41.988   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (3490 chars; cell BW6 in CSV)
+2026-08-08 08:17:43.991   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (7228 chars; cell BT6 in CSV)
+2026-08-08 08:17:43.991   win_rates=['20%', '20%', '20%', '70%', '90%', '80%']
+2026-08-08 08:17:43.991   ranks=[4, 5, 6, 3, 1, 2] (cells I6:N6 in CSV)
+2026-08-08 08:17:43.997   winner=plan_4 (cell F6 in CSV)
+2026-08-08 08:17:43.997 >> New incumbent: alt 4 (cell F6 in CSV; 6337 chars, "## One-Sentence Summary A priv ... distinctive registry function.")
+2026-08-08 08:17:43.997 ── Step 6/12 ───────────────────────────────────────
+2026-08-08 08:17:43.997 Generating ideas...
+2026-08-08 08:17:48.559   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (1030 chars; cell H7 in CSV)
+2026-08-08 08:17:48.559     idea 1: Propose a specific, limited-duration pilot with a single, named certification body (e.g., Fairtrade International) to te
+2026-08-08 08:17:48.559     idea 2: Define a concrete, single-page mockup of the proposed open-source verification widget to visually demonstrate its simpli
+2026-08-08 08:17:48.559     idea 3: Specify one clear, initial ethical standard beyond the Fair Trade coffee anchor (e.g., 'conflict-free minerals' or 'orga
+2026-08-08 08:17:48.559     idea 4: Propose a targeted user test with procurement teams from one specific company type (e.g., a mid-sized specialty coffee r
+2026-08-08 08:17:48.559     idea 5: Outline a simple, hypothetical API endpoint specification (e.g., GET /verify/{fingerprintID}) as a concrete addition to 
+2026-08-08 08:17:48.560 Rewriting plan variations...
+2026-08-08 08:18:03.080   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (7052 chars; cell F7 in CSV)
+2026-08-08 08:18:03.337   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (6971 chars; cell C7 in CSV)
+2026-08-08 08:18:03.616   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (7054 chars; cell G7 in CSV)
+2026-08-08 08:18:03.834   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (6939 chars; cell D7 in CSV)
+2026-08-08 08:18:04.090   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (7000 chars; cell E7 in CSV)
+2026-08-08 08:18:05.888   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (358 chars; cell G7 in CSV)
+2026-08-08 08:18:06.772   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (604 chars; cell D7 in CSV)
+2026-08-08 08:18:07.081   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (960 chars; cell F7 in CSV)
+2026-08-08 08:18:07.336   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (879 chars; cell C7 in CSV)
+2026-08-08 08:18:08.294   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (1175 chars; cell E7 in CSV)
+2026-08-08 08:18:08.295 Evaluating 6 plans (30 matches)...
+2026-08-08 08:18:17.571   Evaluator (deepseek-v3.2): incumbent vs alt 2 (parse attempt 1) -> OK (3552 chars; cell AU7 in CSV)
+2026-08-08 08:18:18.259   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (3742 chars; cell AT7 in CSV)
+2026-08-08 08:18:19.439   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (4385 chars; cell AY7 in CSV)
+2026-08-08 08:18:19.458   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (5239 chars; cell AX7 in CSV)
+2026-08-08 08:18:22.291   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (5819 chars; cell AV7 in CSV)
+2026-08-08 08:18:25.105   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (3305 chars; cell BA7 in CSV)
+2026-08-08 08:18:26.881   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (3974 chars; cell BB7 in CSV)
+2026-08-08 08:18:27.060   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (3409 chars; cell BC7 in CSV)
+2026-08-08 08:18:30.282   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (3166 chars; cell BE7 in CSV)
+2026-08-08 08:18:30.640   Evaluator (deepseek-v3.2): alt 2 vs incumbent (parse attempt 1) -> OK (5164 chars; cell BD7 in CSV)
+2026-08-08 08:18:31.216   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3000 chars; cell BF7 in CSV)
+2026-08-08 08:18:37.642   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (3971 chars; cell BH7 in CSV)
+2026-08-08 08:18:39.741   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (3047 chars; cell BK7 in CSV)
+2026-08-08 08:18:39.963   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (4912 chars; cell BG7 in CSV)
+2026-08-08 08:18:44.614   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (5446 chars; cell BJ7 in CSV)
+2026-08-08 08:18:45.579   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (6075 chars; cell BI7 in CSV)
+2026-08-08 08:18:49.231   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (3594 chars; cell BO7 in CSV)
+2026-08-08 08:18:50.342   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (4482 chars; cell BM7 in CSV)
+2026-08-08 08:18:52.010   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (4969 chars; cell BL7 in CSV)
+2026-08-08 08:18:53.831   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (3020 chars; cell BQ7 in CSV)
+2026-08-08 08:18:55.988   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (2833 chars; cell BR7 in CSV)
+2026-08-08 08:18:57.376   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (4549 chars; cell BP7 in CSV)
+2026-08-08 08:19:02.588   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (4406 chars; cell AZ7 in CSV)
+2026-08-08 08:19:02.895   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (2169 chars; cell BV7 in CSV)
+2026-08-08 08:19:03.450   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (4244 chars; cell BT7 in CSV)
+2026-08-08 08:19:06.430   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (5483 chars; cell BS7 in CSV)
+2026-08-08 08:19:14.279   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (5189 chars; cell BU7 in CSV)
+2026-08-08 08:19:16.490   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (4998 chars; cell BW7 in CSV)
+2026-08-08 08:19:16.491   win_rates=['20%', '100%', '50%', '60%', '20%', '50%']
+2026-08-08 08:19:16.491   ranks=[5, 1, 3, 2, 6, 4] (cells I7:N7 in CSV)
+2026-08-08 08:19:16.497   winner=plan_1 (cell C7 in CSV)
+2026-08-08 08:19:16.497 >> New incumbent: alt 1 (cell C7 in CSV; 6593 chars, "## One-Sentence Summary A priv ... distinctive registry function.")
+2026-08-08 08:19:16.497 ── Step 7/12 ───────────────────────────────────────
+2026-08-08 08:19:16.497 Generating ideas...
+2026-08-08 08:19:20.708   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (875 chars; cell H8 in CSV)
+2026-08-08 08:19:20.708     idea 1: Define a specific, entry-level subscription price point (e.g., $X/month for basic ledger verification) to make the reven
+2026-08-08 08:19:20.708     idea 2: Propose a small-scale, specific pilot with a single coffee cooperative to test the fingerprinting workflow with real sup
+2026-08-08 08:19:20.708     idea 3: Add a planned, specific educational tool for the initial target user (procurement teams), such as a short interactive gu
+2026-08-08 08:19:20.708     idea 4: Explore targeting university sustainability offices as a distinct, initial user group for verifying donations and ethica
+2026-08-08 08:19:20.708     idea 5: Plan to develop and publish a single, concrete API endpoint specification (e.g., for the verification widget) as a first
+2026-08-08 08:19:20.708 Rewriting plan variations...
+2026-08-08 08:19:35.833   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (7105 chars; cell C8 in CSV)
+2026-08-08 08:19:36.292   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (7120 chars; cell D8 in CSV)
+2026-08-08 08:19:36.820   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (7391 chars; cell F8 in CSV)
+2026-08-08 08:19:37.175   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (7213 chars; cell G8 in CSV)
+2026-08-08 08:19:37.719   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (7448 chars; cell E8 in CSV)
+2026-08-08 08:19:38.557   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (531 chars; cell C8 in CSV)
+2026-08-08 08:19:39.650   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (461 chars; cell G8 in CSV)
+2026-08-08 08:19:39.753   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (832 chars; cell D8 in CSV)
+2026-08-08 08:19:40.860   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (960 chars; cell F8 in CSV)
+2026-08-08 08:19:40.951   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (759 chars; cell E8 in CSV)
+2026-08-08 08:19:40.952 Evaluating 6 plans (30 matches)...
+2026-08-08 08:19:49.405   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (2684 chars; cell AY8 in CSV)
+2026-08-08 08:19:52.978   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (3669 chars; cell AZ8 in CSV)
+2026-08-08 08:19:54.014   Evaluator (deepseek-v3.2): incumbent vs alt 2 (parse attempt 1) -> OK (4500 chars; cell AU8 in CSV)
+2026-08-08 08:19:55.528   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (5081 chars; cell AT8 in CSV)
+2026-08-08 08:19:56.034   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (5134 chars; cell AV8 in CSV)
+2026-08-08 08:19:59.786   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (4707 chars; cell AX8 in CSV)
+2026-08-08 08:20:03.675   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (4446 chars; cell BA8 in CSV)
+2026-08-08 08:20:05.039   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (3947 chars; cell BB8 in CSV)
+2026-08-08 08:20:06.275   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (3190 chars; cell BE8 in CSV)
+2026-08-08 08:20:08.598   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (2862 chars; cell BF8 in CSV)
+2026-08-08 08:20:09.311   Evaluator (deepseek-v3.2): alt 2 vs incumbent (parse attempt 1) -> OK (4760 chars; cell BD8 in CSV)
+2026-08-08 08:20:10.251   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (6067 chars; cell BC8 in CSV)
+2026-08-08 08:20:14.827   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3704 chars; cell BG8 in CSV)
+2026-08-08 08:20:16.864   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (4303 chars; cell BH8 in CSV)
+2026-08-08 08:20:20.154   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (4255 chars; cell BK8 in CSV)
+2026-08-08 08:20:20.475   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (3909 chars; cell BL8 in CSV)
+2026-08-08 08:20:22.281   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (5016 chars; cell BI8 in CSV)
+2026-08-08 08:20:24.533   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (5714 chars; cell BJ8 in CSV)
+2026-08-08 08:20:28.882   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (4559 chars; cell BO8 in CSV)
+2026-08-08 08:20:31.248   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (4011 chars; cell BP8 in CSV)
+2026-08-08 08:20:31.253   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (4035 chars; cell BQ8 in CSV)
+2026-08-08 08:20:31.806   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (3689 chars; cell BR8 in CSV)
+2026-08-08 08:20:35.015   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (4221 chars; cell BS8 in CSV)
+2026-08-08 08:20:35.140   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (6498 chars; cell BM8 in CSV)
+2026-08-08 08:20:39.486   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (4145 chars; cell BT8 in CSV)
+2026-08-08 08:20:41.148   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (3536 chars; cell BW8 in CSV)
+2026-08-08 08:20:42.729   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (3925 chars; cell BU8 in CSV)
+2026-08-08 08:20:43.464   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (4350 chars; cell BV8 in CSV)
+2026-08-08 08:20:43.464   win_rates=['20%', '40%', '80%', '70%', '30%', '60%']
+2026-08-08 08:20:43.464   ranks=[6, 4, 1, 2, 5, 3] (cells I8:N8 in CSV)
+2026-08-08 08:20:43.471   winner=plan_2 (cell D8 in CSV)
+2026-08-08 08:20:43.472 >> New incumbent: alt 2 (cell D8 in CSV; 6733 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:20:43.472 ── Step 8/12 ───────────────────────────────────────
+2026-08-08 08:20:43.472 Generating ideas...
+2026-08-08 08:20:47.979   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (914 chars; cell H9 in CSV)
+2026-08-08 08:20:47.980     idea 1: Define a specific, initial free trial duration (e.g., 30-day) and entry-level subscription price point for small supplie
+2026-08-08 08:20:47.980     idea 2: Name the specific coffee cooperative for the planned pilot to ground the test in a real-world entity and demonstrate ini
+2026-08-08 08:20:47.980     idea 3: Specify the exact public ledger technology (e.g., a specific blockchain or timestamping service) to be used for the digi
+2026-08-08 08:20:47.980     idea 4: Detail one concrete example of a 'compact, anonymized fingerprint'—such as a hash of a specific data point (e.g., Fair T
+2026-08-08 08:20:47.980     idea 5: Propose a specific, simple metric for the pilot (e.g., time saved in verification, number of events recorded) to measure
+2026-08-08 08:20:47.980 Rewriting plan variations...
+2026-08-08 08:21:03.933   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (7269 chars; cell D9 in CSV)
+2026-08-08 08:21:04.235   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (7279 chars; cell E9 in CSV)
+2026-08-08 08:21:04.329   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (7533 chars; cell C9 in CSV)
+2026-08-08 08:21:04.638   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (7313 chars; cell F9 in CSV)
+2026-08-08 08:21:05.533   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (7586 chars; cell G9 in CSV)
+2026-08-08 08:21:06.825   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (539 chars; cell C9 in CSV)
+2026-08-08 08:21:07.516   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (687 chars; cell E9 in CSV)
+2026-08-08 08:21:07.977   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (697 chars; cell F9 in CSV)
+2026-08-08 08:21:08.029   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (950 chars; cell D9 in CSV)
+2026-08-08 08:21:09.093   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (956 chars; cell G9 in CSV)
+2026-08-08 08:21:09.093 Evaluating 6 plans (30 matches)...
+2026-08-08 08:21:15.683   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (2271 chars; cell AX9 in CSV)
+2026-08-08 08:21:17.195   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (2727 chars; cell AZ9 in CSV)
+2026-08-08 08:21:19.840   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (3735 chars; cell AY9 in CSV)
+2026-08-08 08:21:20.821   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (4284 chars; cell BA9 in CSV)
+2026-08-08 08:21:22.278   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (5337 chars; cell AT9 in CSV)
+2026-08-08 08:21:24.917   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (4503 chars; cell AW9 in CSV)
+2026-08-08 08:21:27.998   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (3555 chars; cell BC9 in CSV)
+2026-08-08 08:21:30.000   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (3211 chars; cell BE9 in CSV)
+2026-08-08 08:21:30.902   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (5309 chars; cell BB9 in CSV)
+2026-08-08 08:21:32.536   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (3572 chars; cell BH9 in CSV)
+2026-08-08 08:21:33.590   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (4719 chars; cell BG9 in CSV)
+2026-08-08 08:21:34.807   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2832 chars; cell BJ9 in CSV)
+2026-08-08 08:21:38.115   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (3283 chars; cell BM9 in CSV)
+2026-08-08 08:21:40.180   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (5128 chars; cell BL9 in CSV)
+2026-08-08 08:21:41.688   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (3160 chars; cell BN9 in CSV)
+2026-08-08 08:21:42.733   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (3876 chars; cell BO9 in CSV)
+2026-08-08 08:21:47.700   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (4394 chars; cell BP9 in CSV)
+2026-08-08 08:21:48.961   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (3985 chars; cell BQ9 in CSV)
+2026-08-08 08:21:50.573   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (3673 chars; cell BS9 in CSV)
+2026-08-08 08:21:50.717   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (3165 chars; cell BT9 in CSV)
+2026-08-08 08:21:51.003   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (4383 chars; cell BR9 in CSV)
+2026-08-08 08:21:58.345   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3424 chars; cell BV9 in CSV)
+2026-08-08 08:21:58.433   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (5049 chars; cell BU9 in CSV)
+2026-08-08 08:22:06.224   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (5160 chars; cell BW9 in CSV)
+2026-08-08 08:22:06.224   win_rates=['30%', '70%', '30%', '20%', '50%', '100%']
+2026-08-08 08:22:06.225   ranks=[4, 2, 5, 6, 3, 1] (cells I9:N9 in CSV)
+2026-08-08 08:22:06.231   winner=plan_5 (cell G9 in CSV)
+2026-08-08 08:22:06.231 >> New incumbent: alt 5 (cell G9 in CSV; 7168 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:22:06.231 ── Step 9/12 ───────────────────────────────────────
+2026-08-08 08:22:06.231 Generating ideas...
+2026-08-08 08:22:10.497   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (992 chars; cell H10 in CSV)
+2026-08-08 08:22:10.498     idea 1: Propose a specific, entry-level price point for the tiered subscription model (e.g., $X/month for basic ledger verificat
+2026-08-08 08:22:10.498     idea 2: Propose a specific, small-scale test of the open-source verification widget with a single, hypothetical third-party webs
+2026-08-08 08:22:10.498     idea 3: Propose a specific, simple metric for the planned pilot with the coffee cooperative to measure the utility for *buyers* 
+2026-08-08 08:22:10.498     idea 4: Propose exploring a partnership with a specific, single matching gift program administrator as a test case to validate t
+2026-08-08 08:22:10.498     idea 5: Propose a specific, limited-time duration for the planned free trial period (e.g., 60 days) to add clarity to the custom
+2026-08-08 08:22:10.498 Rewriting plan variations...
+2026-08-08 08:22:26.950   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (7697 chars; cell C10 in CSV)
+2026-08-08 08:22:27.092   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (7618 chars; cell G10 in CSV)
+2026-08-08 08:22:27.584   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (7701 chars; cell D10 in CSV)
+2026-08-08 08:22:28.242   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (8075 chars; cell F10 in CSV)
+2026-08-08 08:22:28.462   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (8043 chars; cell E10 in CSV)
+2026-08-08 08:22:29.913   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (575 chars; cell G10 in CSV)
+2026-08-08 08:22:30.667   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (923 chars; cell C10 in CSV)
+2026-08-08 08:22:30.914   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (939 chars; cell D10 in CSV)
+2026-08-08 08:22:31.337   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (580 chars; cell E10 in CSV)
+2026-08-08 08:22:33.077   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (1354 chars; cell F10 in CSV)
+2026-08-08 08:22:33.077 Evaluating 6 plans (30 matches)...
+2026-08-08 08:22:38.231   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (1295 chars; cell AV10 in CSV)
+2026-08-08 08:22:42.266   Evaluator (deepseek-v3.2): incumbent vs alt 2 (parse attempt 1) -> OK (2612 chars; cell AU10 in CSV)
+2026-08-08 08:22:44.169   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (2910 chars; cell AW10 in CSV)
+2026-08-08 08:22:45.602   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (3218 chars; cell AT10 in CSV)
+2026-08-08 08:22:45.723   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (3553 chars; cell AX10 in CSV)
+2026-08-08 08:22:46.084   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (1973 chars; cell AZ10 in CSV)
+2026-08-08 08:22:48.630   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (4385 chars; cell AY10 in CSV)
+2026-08-08 08:22:53.638   Evaluator (deepseek-v3.2): alt 2 vs incumbent (parse attempt 1) -> OK (2149 chars; cell BD10 in CSV)
+2026-08-08 08:22:55.963   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (2978 chars; cell BC10 in CSV)
+2026-08-08 08:22:57.691   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (3168 chars; cell BE10 in CSV)
+2026-08-08 08:22:57.855   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (4619 chars; cell BA10 in CSV)
+2026-08-08 08:23:01.474   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3732 chars; cell BF10 in CSV)
+2026-08-08 08:23:03.387   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (5248 chars; cell BB10 in CSV)
+2026-08-08 08:23:06.602   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3527 chars; cell BG10 in CSV)
+2026-08-08 08:23:07.092   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2518 chars; cell BJ10 in CSV)
+2026-08-08 08:23:08.033   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (3156 chars; cell BH10 in CSV)
+2026-08-08 08:23:11.413   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (3810 chars; cell BI10 in CSV)
+2026-08-08 08:23:14.935   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (3199 chars; cell BL10 in CSV)
+2026-08-08 08:23:17.015   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (4257 chars; cell BK10 in CSV)
+2026-08-08 08:23:17.178   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (2936 chars; cell BM10 in CSV)
+2026-08-08 08:23:21.892   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (4384 chars; cell BO10 in CSV)
+2026-08-08 08:23:22.425   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (4561 chars; cell BN10 in CSV)
+2026-08-08 08:23:26.224   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2668 chars; cell BQ10 in CSV)
+2026-08-08 08:23:27.326   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (2548 chars; cell BS10 in CSV)
+2026-08-08 08:23:27.847   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (2931 chars; cell BR10 in CSV)
+2026-08-08 08:23:31.549   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (5392 chars; cell BP10 in CSV)
+2026-08-08 08:23:35.312   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (2455 chars; cell BV10 in CSV)
+2026-08-08 08:23:35.447   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (3301 chars; cell BT10 in CSV)
+2026-08-08 08:23:37.664   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (4074 chars; cell BU10 in CSV)
+2026-08-08 08:23:39.675   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (3054 chars; cell BW10 in CSV)
+2026-08-08 08:23:39.675   win_rates=['10%', '60%', '20%', '100%', '80%', '30%']
+2026-08-08 08:23:39.676   ranks=[6, 3, 5, 1, 2, 4] (cells I10:N10 in CSV)
+2026-08-08 08:23:39.681   winner=plan_3 (cell E10 in CSV)
+2026-08-08 08:23:39.682 >> New incumbent: alt 3 (cell E10 in CSV; 7547 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:23:39.682 ── Step 10/12 ──────────────────────────────────────
+2026-08-08 08:23:39.682 Generating ideas...
+2026-08-08 08:23:43.349   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (1130 chars; cell H11 in CSV)
+2026-08-08 08:23:43.349     idea 1: Propose a specific, small-scale pilot with a single procurement team at a consumer goods company to test the buyer-side 
+2026-08-08 08:23:43.349     idea 2: Propose a specific, simple metric for the initial coffee cooperative pilot to measure utility for the supplier: the aver
+2026-08-08 08:23:43.349     idea 3: Propose a specific, entry-level subscription price point designed for small-scale suppliers or NGOs to access basic ledg
+2026-08-08 08:23:43.349     idea 4: Propose a specific sustainability certification body (e.g., Fairtrade International, Rainforest Alliance) as a potential
+2026-08-08 08:23:43.349     idea 5: Propose the development of a simple, open-source verification widget that any third-party website could embed, and provi
+2026-08-08 08:23:43.349 Rewriting plan variations...
+2026-08-08 08:24:00.336   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (8043 chars; cell D11 in CSV)
+2026-08-08 08:24:00.650   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (7968 chars; cell C11 in CSV)
+2026-08-08 08:24:01.009   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (8066 chars; cell E11 in CSV)
+2026-08-08 08:24:01.170   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (8064 chars; cell G11 in CSV)
+2026-08-08 08:24:01.247   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (8092 chars; cell F11 in CSV)
+2026-08-08 08:24:02.262   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (379 chars; cell D11 in CSV)
+2026-08-08 08:24:03.314   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (502 chars; cell E11 in CSV)
+2026-08-08 08:24:03.681   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (430 chars; cell G11 in CSV)
+2026-08-08 08:24:03.747   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (444 chars; cell F11 in CSV)
+2026-08-08 08:24:04.390   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (944 chars; cell C11 in CSV)
+2026-08-08 08:24:04.391 Evaluating 6 plans (30 matches)...
+2026-08-08 08:24:08.416   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (975 chars; cell AW11 in CSV)
+2026-08-08 08:24:10.720   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (1677 chars; cell AX11 in CSV)
+2026-08-08 08:24:16.843   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (3809 chars; cell AT11 in CSV)
+2026-08-08 08:24:17.023   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (3480 chars; cell AY11 in CSV)
+2026-08-08 08:24:18.251   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (3861 chars; cell AV11 in CSV)
+2026-08-08 08:24:20.514   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (3126 chars; cell AZ11 in CSV)
+2026-08-08 08:24:20.745   Evaluator (deepseek-v3.2): incumbent vs alt 2 (parse attempt 1) -> OK (5204 chars; cell AU11 in CSV)
+2026-08-08 08:24:22.464   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (1488 chars; cell BB11 in CSV)
+2026-08-08 08:24:22.593   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (3333 chars; cell BA11 in CSV)
+2026-08-08 08:24:23.467   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (1582 chars; cell BC11 in CSV)
+2026-08-08 08:24:29.897   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (2716 chars; cell BE11 in CSV)
+2026-08-08 08:24:32.707   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3253 chars; cell BF11 in CSV)
+2026-08-08 08:24:33.167   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (2929 chars; cell BH11 in CSV)
+2026-08-08 08:24:34.647   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (3270 chars; cell BI11 in CSV)
+2026-08-08 08:24:35.910   Evaluator (deepseek-v3.2): alt 2 vs incumbent (parse attempt 1) -> OK (4548 chars; cell BD11 in CSV)
+2026-08-08 08:24:39.382   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2621 chars; cell BJ11 in CSV)
+2026-08-08 08:24:39.718   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (1919 chars; cell BK11 in CSV)
+2026-08-08 08:24:39.858   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (4482 chars; cell BG11 in CSV)
+2026-08-08 08:24:42.659   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (2574 chars; cell BL11 in CSV)
+2026-08-08 08:24:44.116   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (2400 chars; cell BN11 in CSV)
+2026-08-08 08:24:45.092   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (2802 chars; cell BM11 in CSV)
+2026-08-08 08:24:47.845   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (2293 chars; cell BP11 in CSV)
+2026-08-08 08:24:48.430   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (2063 chars; cell BO11 in CSV)
+2026-08-08 08:24:51.135   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (3480 chars; cell BQ11 in CSV)
+2026-08-08 08:24:53.433   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (2357 chars; cell BS11 in CSV)
+2026-08-08 08:24:56.450   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (3279 chars; cell BT11 in CSV)
+2026-08-08 08:24:59.273   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (4624 chars; cell BR11 in CSV)
+2026-08-08 08:24:59.833   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (3225 chars; cell BV11 in CSV)
+2026-08-08 08:25:00.453   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (2603 chars; cell BW11 in CSV)
+2026-08-08 08:25:01.107   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (3350 chars; cell BU11 in CSV)
+2026-08-08 08:25:01.108   win_rates=['30%', '90%', '30%', '90%', '30%', '30%']
+2026-08-08 08:25:01.108   ranks=[3, 1, 4, 2, 5, 6] (cells I11:N11 in CSV)
+2026-08-08 08:25:01.113   winner=plan_1 (cell C11 in CSV)
+2026-08-08 08:25:01.114 >> New incumbent: alt 1 (cell C11 in CSV; 7538 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:25:01.114 ── Step 11/12 ──────────────────────────────────────
+2026-08-08 08:25:01.114 Generating ideas...
+2026-08-08 08:25:06.115   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (1053 chars; cell H12 in CSV)
+2026-08-08 08:25:06.115     idea 1: Propose a specific, small-scale test of the verification widget with a single university's alumni donation matching port
+2026-08-08 08:25:06.115     idea 2: Propose a targeted, low-cost market test by creating a simple landing page explaining the value proposition for NGOs and
+2026-08-08 08:25:06.116     idea 3: Propose a clear, hypothetical pricing anchor for the entry-level subscription tier (e.g., '$X/month for up to Y verifica
+2026-08-08 08:25:06.116     idea 4: Propose exploring a partnership with a specific, existing supply chain data platform (like Sourcemap or TrusTrace) for a
+2026-08-08 08:25:06.116     idea 5: Propose a specific, additional pilot metric for the coffee cooperative test: the percentage reduction in disputed or que
+2026-08-08 08:25:06.116 Rewriting plan variations...
+2026-08-08 08:25:24.202   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (8220 chars; cell C12 in CSV)
+2026-08-08 08:25:24.288   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (8268 chars; cell D12 in CSV)
+2026-08-08 08:25:24.386   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (8148 chars; cell G12 in CSV)
+2026-08-08 08:25:24.429   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (8330 chars; cell F12 in CSV)
+2026-08-08 08:25:25.021   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (8123 chars; cell E12 in CSV)
+2026-08-08 08:25:27.709   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (841 chars; cell D12 in CSV)
+2026-08-08 08:25:27.885   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (881 chars; cell G12 in CSV)
+2026-08-08 08:25:27.896   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (1012 chars; cell F12 in CSV)
+2026-08-08 08:25:28.163   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (1197 chars; cell C12 in CSV)
+2026-08-08 08:25:28.303   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (736 chars; cell E12 in CSV)
+2026-08-08 08:25:28.303 Evaluating 6 plans (30 matches)...
+2026-08-08 08:25:34.215   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (1619 chars; cell AV12 in CSV)
+2026-08-08 08:25:37.849   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (2730 chars; cell BJ12 in CSV)
+2026-08-08 08:25:38.975   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (2720 chars; cell BI12 in CSV)
+2026-08-08 08:25:40.254   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (3456 chars; cell BA12 in CSV)
+2026-08-08 08:25:40.453   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (3150 chars; cell BK12 in CSV)
+2026-08-08 08:25:41.248   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3704 chars; cell BF12 in CSV)
+2026-08-08 08:25:41.853   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (1921 chars; cell BL12 in CSV)
+2026-08-08 08:25:48.113   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2552 chars; cell BQ12 in CSV)
+2026-08-08 08:25:49.564   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (3296 chars; cell BM12 in CSV)
+2026-08-08 08:25:55.361   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (4354 chars; cell BV12 in CSV)
+2026-08-08 08:25:55.361   win_rates=['40%', '40%', '40%', '100%', '40%', '40%']
+2026-08-08 08:25:55.361   ranks=[2, 3, 4, 1, 5, 6] (cells I12:N12 in CSV)
+2026-08-08 08:25:55.363   winner=plan_3 (cell E12 in CSV)
+2026-08-08 08:25:55.363 >> New incumbent: alt 3 (cell E12 in CSV; 7728 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:25:55.363 ── Step 12/12 ──────────────────────────────────────
+2026-08-08 08:25:55.363 Generating ideas...
+2026-08-08 08:26:00.105   Generator (deepseek-v3.2): generating 5 ideas (attempt 1/5) -> OK (1086 chars; cell H13 in CSV)
+2026-08-08 08:26:00.106     idea 1: Propose a specific, small-scale pilot with a single NGO to test the impact reporting use case and measure the average re
+2026-08-08 08:26:00.106     idea 2: Define a specific, second ethical standard (e.g., conflict-free minerals) to be explored for anchoring after the initial
+2026-08-08 08:26:00.106     idea 3: Propose a clear, hypothetical pricing anchor for a second subscription tier aimed at enterprise procurement teams, such 
+2026-08-08 08:26:00.106     idea 4: Propose a specific, simple metric for the planned decentralized witness network exploration, such as 'targeting attestat
+2026-08-08 08:26:00.106     idea 5: Plan a specific, small-scale test of the open-source verification widget by proposing to embed it on a hypothetical, sam
+2026-08-08 08:26:00.106 Rewriting plan variations...
+2026-08-08 08:26:17.521   Specialized Generator (deepseek-v3.2): alt 1 (parse attempt 1) -> OK (8378 chars; cell C13 in CSV)
+2026-08-08 08:26:18.168   Specialized Generator (deepseek-v3.2): alt 4 (parse attempt 1) -> OK (8341 chars; cell F13 in CSV)
+2026-08-08 08:26:18.330   Specialized Generator (deepseek-v3.2): alt 2 (parse attempt 1) -> OK (8338 chars; cell D13 in CSV)
+2026-08-08 08:26:18.529   Specialized Generator (deepseek-v3.2): alt 5 (parse attempt 1) -> OK (8441 chars; cell G13 in CSV)
+2026-08-08 08:26:18.976   Specialized Generator (deepseek-v3.2): alt 3 (parse attempt 1) -> OK (8536 chars; cell E13 in CSV)
+2026-08-08 08:26:20.857   Fidelity Auditor (deepseek-v3.2): local alt 2 (parse attempt 1) -> OK (493 chars; cell D13 in CSV)
+2026-08-08 08:26:20.876   Fidelity Auditor (deepseek-v3.2): local alt 1 (parse attempt 1) -> OK (935 chars; cell C13 in CSV)
+2026-08-08 08:26:21.100   Fidelity Auditor (deepseek-v3.2): local alt 4 (parse attempt 1) -> OK (759 chars; cell F13 in CSV)
+2026-08-08 08:26:21.673   Fidelity Auditor (deepseek-v3.2): local alt 5 (parse attempt 1) -> OK (821 chars; cell G13 in CSV)
+2026-08-08 08:26:21.987   Fidelity Auditor (deepseek-v3.2): local alt 3 (parse attempt 1) -> OK (653 chars; cell E13 in CSV)
+2026-08-08 08:26:21.988 Evaluating 6 plans (30 matches)...
+2026-08-08 08:26:28.230   Evaluator (deepseek-v3.2): incumbent vs alt 3 (parse attempt 1) -> OK (1592 chars; cell AV13 in CSV)
+2026-08-08 08:26:30.758   Evaluator (deepseek-v3.2): incumbent vs alt 2 (parse attempt 1) -> OK (2259 chars; cell AU13 in CSV)
+2026-08-08 08:26:33.108   Evaluator (deepseek-v3.2): incumbent vs alt 1 (parse attempt 1) -> OK (3040 chars; cell AT13 in CSV)
+2026-08-08 08:26:34.731   Evaluator (deepseek-v3.2): incumbent vs alt 5 (parse attempt 1) -> OK (3651 chars; cell AX13 in CSV)
+2026-08-08 08:26:35.052   Evaluator (deepseek-v3.2): incumbent vs alt 4 (parse attempt 1) -> OK (3529 chars; cell AW13 in CSV)
+2026-08-08 08:26:38.084   Evaluator (deepseek-v3.2): alt 1 vs alt 2 (parse attempt 1) -> OK (2468 chars; cell AZ13 in CSV)
+2026-08-08 08:26:39.150   Evaluator (deepseek-v3.2): alt 1 vs incumbent (parse attempt 1) -> OK (5169 chars; cell AY13 in CSV)
+2026-08-08 08:26:43.505   Evaluator (deepseek-v3.2): alt 1 vs alt 3 (parse attempt 1) -> OK (3739 chars; cell BA13 in CSV)
+2026-08-08 08:26:43.946   Evaluator (deepseek-v3.2): alt 1 vs alt 4 (parse attempt 1) -> OK (3094 chars; cell BB13 in CSV)
+2026-08-08 08:26:44.925   Evaluator (deepseek-v3.2): alt 2 vs incumbent (parse attempt 1) -> OK (2562 chars; cell BD13 in CSV)
+2026-08-08 08:26:46.378   Evaluator (deepseek-v3.2): alt 2 vs alt 1 (parse attempt 1) -> OK (2166 chars; cell BE13 in CSV)
+2026-08-08 08:26:50.060   Evaluator (deepseek-v3.2): alt 1 vs alt 5 (parse attempt 1) -> OK (4447 chars; cell BC13 in CSV)
+2026-08-08 08:26:51.403   Evaluator (deepseek-v3.2): alt 2 vs alt 3 (parse attempt 1) -> OK (3349 chars; cell BF13 in CSV)
+2026-08-08 08:26:53.816   Evaluator (deepseek-v3.2): alt 3 vs alt 1 (parse attempt 1) -> OK (1840 chars; cell BJ13 in CSV)
+2026-08-08 08:26:54.830   Evaluator (deepseek-v3.2): alt 2 vs alt 4 (parse attempt 1) -> OK (3248 chars; cell BG13 in CSV)
+2026-08-08 08:26:55.335   Evaluator (deepseek-v3.2): alt 2 vs alt 5 (parse attempt 1) -> OK (2985 chars; cell BH13 in CSV)
+2026-08-08 08:26:55.375   Evaluator (deepseek-v3.2): alt 3 vs incumbent (parse attempt 1) -> OK (3128 chars; cell BI13 in CSV)
+2026-08-08 08:27:02.324   Evaluator (deepseek-v3.2): alt 3 vs alt 2 (parse attempt 1) -> OK (3374 chars; cell BK13 in CSV)
+2026-08-08 08:27:04.301   Evaluator (deepseek-v3.2): alt 4 vs alt 2 (parse attempt 1) -> OK (2469 chars; cell BP13 in CSV)
+2026-08-08 08:27:04.885   Evaluator (deepseek-v3.2): alt 3 vs alt 4 (parse attempt 1) -> OK (4263 chars; cell BL13 in CSV)
+2026-08-08 08:27:05.499   Evaluator (deepseek-v3.2): alt 3 vs alt 5 (parse attempt 1) -> OK (3262 chars; cell BM13 in CSV)
+2026-08-08 08:27:05.920   Evaluator (deepseek-v3.2): alt 4 vs incumbent (parse attempt 1) -> OK (3165 chars; cell BN13 in CSV)
+2026-08-08 08:27:06.648   Evaluator (deepseek-v3.2): alt 4 vs alt 1 (parse attempt 1) -> OK (3081 chars; cell BO13 in CSV)
+2026-08-08 08:27:11.227   Evaluator (deepseek-v3.2): alt 4 vs alt 3 (parse attempt 1) -> OK (2119 chars; cell BQ13 in CSV)
+2026-08-08 08:27:14.426   Evaluator (deepseek-v3.2): alt 4 vs alt 5 (parse attempt 1) -> OK (2872 chars; cell BR13 in CSV)
+2026-08-08 08:27:15.667   Evaluator (deepseek-v3.2): alt 5 vs alt 1 (parse attempt 1) -> OK (2924 chars; cell BT13 in CSV)
+2026-08-08 08:27:15.976   Evaluator (deepseek-v3.2): alt 5 vs alt 2 (parse attempt 1) -> OK (2763 chars; cell BU13 in CSV)
+2026-08-08 08:27:18.690   Evaluator (deepseek-v3.2): alt 5 vs incumbent (parse attempt 1) -> OK (4134 chars; cell BS13 in CSV)
+2026-08-08 08:27:19.714   Evaluator (deepseek-v3.2): alt 5 vs alt 4 (parse attempt 1) -> OK (2396 chars; cell BW13 in CSV)
+2026-08-08 08:27:20.844   Evaluator (deepseek-v3.2): alt 5 vs alt 3 (parse attempt 1) -> OK (4087 chars; cell BV13 in CSV)
+2026-08-08 08:27:20.844   win_rates=['0%', '80%', '60%', '70%', '40%', '50%']
+2026-08-08 08:27:20.844   ranks=[6, 1, 3, 2, 5, 4] (cells I13:N13 in CSV)
+2026-08-08 08:27:20.849   winner=plan_1 (cell C13 in CSV)
+2026-08-08 08:27:20.849 >> New incumbent: alt 1 (cell C13 in CSV; 8002 chars, "## One-Sentence Summary A priv ... n and the underlying workflow.")
+2026-08-08 08:27:20.849 Done. Reached max steps (12).
+2026-08-08 08:27:20.850 Output: <repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-search.csv
+2026-08-08 08:27:23.489   Narrator (deepseek-v3.2): narrating diff -> OK (503 chars)
+2026-08-08 08:27:25.803   Narrator (deepseek-v3.2): narrating diff -> OK (376 chars)
+2026-08-08 08:27:27.985   Narrator (deepseek-v3.2): narrating diff -> OK (453 chars)
+2026-08-08 08:27:33.031   Narrator (deepseek-v3.2): narrating diff -> OK (471 chars)
+2026-08-08 08:27:35.890   Narrator (deepseek-v3.2): narrating diff -> OK (294 chars)
+2026-08-08 08:27:37.672   Narrator (deepseek-v3.2): narrating diff -> OK (387 chars)
+2026-08-08 08:27:41.431   Narrator (deepseek-v3.2): narrating diff -> OK (420 chars)
+2026-08-08 08:27:43.991   Narrator (deepseek-v3.2): narrating diff -> OK (428 chars)
+2026-08-08 08:27:47.365   Narrator (deepseek-v3.2): narrating diff -> OK (378 chars)
+2026-08-08 08:27:51.607   Narrator (deepseek-v3.2): narrating diff -> OK (406 chars)
+2026-08-08 08:27:54.819   Narrator (deepseek-v3.2): narrating diff -> OK (285 chars)
+2026-08-08 08:27:58.955   Narrator (deepseek-v3.2): narrating diff -> OK (387 chars)
+2026-08-08 08:27:58.956 Narrative: <repository>/out/2026-08-08_deepseekv32-evalrank15-full-polish-s10-local-search-narrative.txt
+2026-08-08 08:27:58.956 # of calls: Generator (deepseek/deepseek-v3.2): 12+0, Specialized Generator (deepseek/deepseek-v3.2): 60+0, Fidelity Auditor (deepseek/deepseek-v3.2): 60+0, Evaluator (deepseek/deepseek-v3.2): 302+1, Narrator (deepseek/deepseek-v3.2): 12+0. Total: 447
+2026-08-08 08:27:58.956 Cache hits: {}
+2026-08-08 08:27:58.956 Live-call usage: {'input_tokens': 1035256, 'output_tokens': 288007, 'reported_cost_usd': 0.4300652118699998}
+2026-08-08 08:27:58.956 Time elapsed: 16.6 minutes
+2026-08-08 08:27:58.956 ERROR SUMMARY: 0 errors occurred (search the log for "ERROR")

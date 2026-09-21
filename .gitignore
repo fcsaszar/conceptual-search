@@ -1,0 +1,13 @@
+# Python byte code
+__pycache__/
+*.pyc
+
+# Raw model-call ledgers (one SQLite file per search run; too large to host here)
+*-call-cache.sqlite3
+
+# Per-task lock files written by the robustness runners
+**/outputs/*/locks/
+
+# Editor and OS files
+*~
+.DS_Store

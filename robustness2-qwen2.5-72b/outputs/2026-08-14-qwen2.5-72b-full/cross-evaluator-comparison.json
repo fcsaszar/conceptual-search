@@ -1,0 +1,87 @@
+{
+  "schema_version": 1,
+  "created_at_utc": "2026-08-14T23:01:21+00:00",
+  "qwen_run_id": "2026-08-14-qwen2.5-72b-full",
+  "gemma_run": "robustness1-gemma3-4b/outputs/2026-08-14-gemma3-4b-full",
+  "correlations": {
+    "all_unique_texts": {
+      "n": 74,
+      "deepseek_gemma": 0.38405732701397693,
+      "deepseek_qwen": 0.5916972976961731,
+      "gemma_qwen": 0.7330329485457376
+    },
+    "originals": {
+      "n": 30,
+      "deepseek_gemma": 0.9382385963427853,
+      "deepseek_qwen": 0.8177663843067321,
+      "gemma_qwen": 0.868561894499363
+    },
+    "all_generated_unique_texts": {
+      "n": 44,
+      "deepseek_gemma": 0.01657478105336842,
+      "deepseek_qwen": 0.4743037090508558,
+      "gemma_qwen": 0.5309318491993217
+    },
+    "global_final": {
+      "n": 14,
+      "deepseek_gemma": 0.4245764719491604,
+      "deepseek_qwen": 0.08549585889462474,
+      "gemma_qwen": 0.22246954808866656
+    },
+    "polished": {
+      "n": 15,
+      "deepseek_gemma": 0.1297297297297297,
+      "deepseek_qwen": 0.33754567625335785,
+      "gemma_qwen": 0.46660725835023004
+    },
+    "local_only": {
+      "n": 15,
+      "deepseek_gemma": 0.8121658791518986,
+      "deepseek_qwen": 0.7785714285714285,
+      "gemma_qwen": 0.7406094140283834
+    }
+  },
+  "fundraising_correlations": {
+    "n": 30,
+    "deepseek": 0.6643655197605772,
+    "gemma": 0.5965697619067613,
+    "qwen": 0.5105792671978289
+  },
+  "claim_comparison": {
+    "polish_improved_count": {
+      "deepseek": 15,
+      "gemma": 13,
+      "qwen": 12
+    },
+    "polish_median_delta_percentage_points": {
+      "deepseek": 28.34,
+      "gemma": 5.000000000000004,
+      "qwen": 8.3333
+    },
+    "polished_above_all_fixed_seeds": {
+      "deepseek": 15,
+      "gemma": 15,
+      "qwen": 9
+    },
+    "focal_polished_outranks_originals": {
+      "deepseek": 24,
+      "gemma": 29,
+      "qwen": 26
+    },
+    "local_only_median_win_rate": {
+      "deepseek": 0.6833,
+      "gemma": 0.55,
+      "qwen": 0.633333
+    },
+    "polished_median_win_rate": {
+      "deepseek": 0.6333,
+      "gemma": 0.833333,
+      "qwen": 0.8
+    },
+    "hply_outranks_originals": {
+      "deepseek": 28,
+      "gemma": 28,
+      "qwen": 29
+    }
+  }
+}

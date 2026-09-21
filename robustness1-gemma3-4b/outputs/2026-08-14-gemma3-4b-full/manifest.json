@@ -1,0 +1,80 @@
+{
+  "schema_version": 1,
+  "status": "complete",
+  "run_id": "2026-08-14-gemma3-4b-full",
+  "started_at_utc": "2026-08-14T21:03:58+00:00",
+  "command": "run_robustness.py --run-id 2026-08-14-gemma3-4b-full --max-concurrency 40",
+  "working_directory": "<repository>/robustness1-gemma3-4b",
+  "git_commit_at_start": "1f8574cb0bc520c58a907c5336049a6f5780d605",
+  "python": "3.13.5 (main, Jul 15 2026, 20:25:40) [GCC 14.2.0]",
+  "platform": "Linux-6.12.96+deb13-amd64-x86_64-with-glibc2.41",
+  "sample_manifest_sha256": "acc9250375159abc39285fc88b8be1b9cde61523a34eb6bedd6212d9b229f50c",
+  "concepts_csv_sha256": "35345de6bfced1b2c82bdd11bf32533769359e5049dcc0f073d03a7559d9301b",
+  "tasks_csv_sha256": "f31e0202b0447117437d4822fbb94b8a68e4c4236a55123eeb24d3fa061919dc",
+  "prompt_sha256": "71ee142eb80cd93a4c68c0ea0a8bfd824dbefed8e6949e779114414604c76c46",
+  "model": {
+    "openrouter_id": "google/gemma-3-4b-it",
+    "hugging_face_id": "google/gemma-3-4b-it",
+    "weights_revision": "093f9f388b31de276ce2de164bdc2081324b9767",
+    "knowledge_cutoff": "2024-08-31",
+    "provider_endpoint": "https://openrouter.ai/api/v1"
+  },
+  "inference": {
+    "temperature": 0.5,
+    "seed": 42,
+    "max_tokens": 2000,
+    "timeout_seconds": 120.0,
+    "max_concurrency": 40,
+    "max_attempts_per_task": 5,
+    "reasoning": "not requested",
+    "response_format": "prompt-requested JSON; no API response_format constraint"
+  },
+  "failure_budgets": {
+    "maximum_cost_usd": 5.0,
+    "maximum_final_task_failure_rate": 0.01,
+    "maximum_parse_failure_rate_after_100_attempts": 0.1,
+    "maximum_consecutive_final_task_failures": 10
+  },
+  "task_count": 3510,
+  "full_design_task_count": 3510,
+  "pilot_limit": 0,
+  "environment_variables_required": [
+    "OPENROUTER_API_KEY"
+  ],
+  "artifacts": {
+    "raw": "raw/<task-id>/attempt-NNN.json",
+    "parsed": "parsed/<task-id>.json",
+    "log": "logs/run.log"
+  },
+  "finished_at_utc": "2026-08-14T21:32:18+00:00",
+  "elapsed_seconds_this_invocation": 1700.070635283948,
+  "results": {
+    "completed_tasks": 3510,
+    "completed_this_invocation": 3236,
+    "failed_tasks_this_invocation": 0,
+    "attempts_this_invocation": 3232,
+    "api_failures_this_invocation": 1,
+    "parse_failures_this_invocation": 9,
+    "prompt_tokens_this_invocation": 7022665,
+    "completion_tokens_this_invocation": 1939998,
+    "reported_cost_usd_this_invocation": 0.5451330499999993
+  },
+  "aggregate_run_totals": {
+    "scheduled_tasks": 3510,
+    "completed_tasks": 3510,
+    "provider_attempts": 3565,
+    "provider_api_errors": 1,
+    "parse_errors_recorded_before_recovery": 68,
+    "prompt_tokens": 7618931,
+    "completion_tokens": 2137894,
+    "reported_cost_usd": 0.5947359499999993
+  },
+  "analysis": {
+    "completed_at_utc": "2026-08-14T21:39:51+00:00",
+    "script": "analyze_results.py",
+    "script_sha256": "d548a29c631f8d536bbbddb59f829a88370b00d4e1b5f8c4315a4e9a17423004",
+    "scores": "scores.csv",
+    "results": "results.json",
+    "report": "report.md"
+  }
+}
